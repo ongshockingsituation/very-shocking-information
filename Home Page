@@ -1,0 +1,542 @@
+-- (VOID) : Gui to Lua
+-- Version: 1.4
+
+-- Instances:
+
+local VHubCoreScreen = Instance.new("Folder")
+local DragScreen = Instance.new("ScreenGui")
+local DragFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local MainFrame = Instance.new("Frame")
+local BarFrame = Instance.new("Frame")
+local VHubLogo = Instance.new("ImageLabel")
+local TabName = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Version = Instance.new("TextLabel")
+local Settings = Instance.new("ImageButton")
+local TabsFrame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local HomeTab = Instance.new("ImageButton")
+local UIListLayout = Instance.new("UIListLayout")
+local ScriptsTab = Instance.new("ImageButton")
+local RequiredAccessoriesTab = Instance.new("ImageButton")
+local GuisTab = Instance.new("ImageButton")
+local AnimationsTab = Instance.new("ImageButton")
+local CommandsTab = Instance.new("ImageButton")
+local OtherHubsTab = Instance.new("ImageButton")
+local PlayerFrame = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local ProfilePicture = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local Greetings = Instance.new("TextLabel")
+local PlayerConfiguration = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Gravity = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local PersonAndAController = Instance.new("ImageLabel")
+local WalkSpeed = Instance.new("TextBox")
+local UICorner_8 = Instance.new("UICorner")
+local JumpHeight = Instance.new("TextBox")
+local UICorner_9 = Instance.new("UICorner")
+local Leaf = Instance.new("ImageButton")
+local UICorner_10 = Instance.new("UICorner")
+local PersonRunning = Instance.new("ImageButton")
+local UICorner_11 = Instance.new("UICorner")
+local PersonJumping = Instance.new("ImageButton")
+local UICorner_12 = Instance.new("UICorner")
+local Border = Instance.new("Frame")
+local LocalPlayerText = Instance.new("TextLabel")
+local GameInformation = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Earth = Instance.new("ImageLabel")
+local Border_2 = Instance.new("Frame")
+local JobID = Instance.new("TextLabel")
+local Game = Instance.new("TextLabel")
+local GameInformationText = Instance.new("TextLabel")
+local UpdatesFrame = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local PaperAndAPen = Instance.new("ImageLabel")
+local TextSupporter = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local Updates = Instance.new("TextLabel")
+local WhatsNewText = Instance.new("TextLabel")
+local OtherStuff = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local KeyChange = Instance.new("TextLabel")
+local Version_2 = Instance.new("TextLabel")
+local Discord = Instance.new("ImageButton")
+local UICorner_17 = Instance.new("UICorner")
+local Flag = Instance.new("ImageButton")
+local UICorner_18 = Instance.new("UICorner")
+
+--Properties:
+
+VHubCoreScreen.Name = "VHubCoreScreen"
+VHubCoreScreen.Parent = (game:GetService("CoreGui") or gethui())
+
+DragScreen.Name = "DragScreen"
+DragScreen.Parent = VHubCoreScreen
+DragScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+DragScreen.ResetOnSpawn = false
+
+DragFrame.Name = "DragFrame"
+DragFrame.Parent = DragScreen
+DragFrame.Active = true
+DragFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DragFrame.BackgroundTransparency = 0.500
+DragFrame.Position = UDim2.new(0.196224764, 0, 0.178353652, 0)
+DragFrame.Size = UDim2.new(0, 460, 0, 258)
+
+UICorner.Parent = DragFrame
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = DragFrame
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.Size = UDim2.new(0, 459, 0, 258)
+
+BarFrame.Name = "BarFrame"
+BarFrame.Parent = MainFrame
+BarFrame.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+BarFrame.Size = UDim2.new(0, 460, 0, 30)
+
+VHubLogo.Name = "VHubLogo"
+VHubLogo.Parent = BarFrame
+VHubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubLogo.BackgroundTransparency = 1.000
+VHubLogo.Position = UDim2.new(0.00499999989, 0, -0.00999999978, 0)
+VHubLogo.Size = UDim2.new(0, 30, 0, 30)
+VHubLogo.Image = "rbxassetid://12193614978"
+
+TabName.Name = "TabName"
+TabName.Parent = BarFrame
+TabName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabName.BackgroundTransparency = 1.000
+TabName.Position = UDim2.new(0.0695652142, 0, 0, 0)
+TabName.Size = UDim2.new(0, 300, 0, 30)
+TabName.Font = Enum.Font.GothamMedium
+TabName.Text = "VHub | Home"
+TabName.TextColor3 = Color3.fromRGB(255, 255, 255)
+TabName.TextSize = 14.000
+TabName.TextXAlignment = Enum.TextXAlignment.Left
+
+Close.Name = "Close"
+Close.Parent = BarFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.934782624, 0, -2.60770321e-08, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.Font = Enum.Font.FredokaOne
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 20.000
+
+UICorner_2.Parent = BarFrame
+
+Version.Name = "Version"
+Version.Parent = BarFrame
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
+Version.Size = UDim2.new(0, 90, 0, 6)
+Version.Font = Enum.Font.Gotham
+Version.Text = "V1.35"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Settings.Name = "Settings"
+Settings.Parent = BarFrame
+Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings.BackgroundTransparency = 1.000
+Settings.Position = UDim2.new(0.880434752, 0, 0.0666666701, 0)
+Settings.Size = UDim2.new(0, 25, 0, 25)
+Settings.Image = "http://www.roblox.com/asset/?id=11592827868"
+
+TabsFrame.Name = "TabsFrame"
+TabsFrame.Parent = MainFrame
+TabsFrame.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+TabsFrame.Position = UDim2.new(0.00999999978, 0, 0.128000006, 0)
+TabsFrame.Size = UDim2.new(0, 40, 0, 221)
+
+UICorner_3.Parent = TabsFrame
+
+HomeTab.Name = "HomeTab"
+HomeTab.Parent = TabsFrame
+HomeTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeTab.BackgroundTransparency = 1.000
+HomeTab.Size = UDim2.new(0, 30, 0, 30)
+HomeTab.Image = "http://www.roblox.com/asset/?id=11592840951"
+
+UIListLayout.Parent = TabsFrame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+
+ScriptsTab.Name = "ScriptsTab"
+ScriptsTab.Parent = TabsFrame
+ScriptsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsTab.BackgroundTransparency = 1.000
+ScriptsTab.Size = UDim2.new(0, 30, 0, 30)
+ScriptsTab.Image = "http://www.roblox.com/asset/?id=11592851654"
+
+RequiredAccessoriesTab.Name = "RequiredAccessoriesTab"
+RequiredAccessoriesTab.Parent = TabsFrame
+RequiredAccessoriesTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RequiredAccessoriesTab.BackgroundTransparency = 1.000
+RequiredAccessoriesTab.Size = UDim2.new(0, 30, 0, 30)
+RequiredAccessoriesTab.Image = "http://www.roblox.com/asset/?id=11592824883"
+
+GuisTab.Name = "GuisTab"
+GuisTab.Parent = TabsFrame
+GuisTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GuisTab.BackgroundTransparency = 1.000
+GuisTab.Size = UDim2.new(0, 30, 0, 30)
+GuisTab.Image = "http://www.roblox.com/asset/?id=11592848654"
+
+AnimationsTab.Name = "AnimationsTab"
+AnimationsTab.Parent = TabsFrame
+AnimationsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimationsTab.BackgroundTransparency = 1.000
+AnimationsTab.Size = UDim2.new(0, 30, 0, 30)
+AnimationsTab.Image = "http://www.roblox.com/asset/?id=11592835705"
+
+CommandsTab.Name = "CommandsTab"
+CommandsTab.Parent = TabsFrame
+CommandsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CommandsTab.BackgroundTransparency = 1.000
+CommandsTab.Size = UDim2.new(0, 30, 0, 30)
+CommandsTab.Image = "http://www.roblox.com/asset/?id=11592837927"
+
+OtherHubsTab.Name = "OtherHubsTab"
+OtherHubsTab.Parent = TabsFrame
+OtherHubsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OtherHubsTab.BackgroundTransparency = 1.000
+OtherHubsTab.Size = UDim2.new(0, 30, 0, 30)
+OtherHubsTab.Image = "http://www.roblox.com/asset/?id=11592850267"
+
+PlayerFrame.Name = "PlayerFrame"
+PlayerFrame.Parent = MainFrame
+PlayerFrame.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+PlayerFrame.Position = UDim2.new(0.115468413, 0, 0.147286817, 0)
+PlayerFrame.Size = UDim2.new(0, 219, 0, 60)
+
+UICorner_4.Parent = PlayerFrame
+
+ProfilePicture.Name = "ProfilePicture"
+ProfilePicture.Parent = PlayerFrame
+ProfilePicture.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProfilePicture.Position = UDim2.new(0.0319634713, 0, 0.116666675, 0)
+ProfilePicture.Size = UDim2.new(0, 45, 0, 45)
+ProfilePicture.Image = "http://www.roblox.com/asset/?id=12782496405"
+
+UICorner_5.CornerRadius = UDim.new(0, 80)
+UICorner_5.Parent = ProfilePicture
+
+Greetings.Name = "Greetings"
+Greetings.Parent = PlayerFrame
+Greetings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Greetings.BackgroundTransparency = 1.000
+Greetings.Position = UDim2.new(0.264840186, 0, 0.0833333358, 0)
+Greetings.Size = UDim2.new(0, 154, 0, 50)
+Greetings.Font = Enum.Font.GothamMedium
+Greetings.Text = "Hello, itsyaboivincentt!"
+Greetings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Greetings.TextSize = 20.000
+Greetings.TextWrapped = true
+Greetings.TextXAlignment = Enum.TextXAlignment.Left
+
+PlayerConfiguration.Name = "PlayerConfiguration"
+PlayerConfiguration.Parent = MainFrame
+PlayerConfiguration.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+PlayerConfiguration.Position = UDim2.new(0.607843101, 0, 0.480620116, 0)
+PlayerConfiguration.Size = UDim2.new(0, 174, 0, 130)
+
+UICorner_6.Parent = PlayerConfiguration
+
+Gravity.Name = "Gravity"
+Gravity.Parent = PlayerConfiguration
+Gravity.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+Gravity.Position = UDim2.new(0.0402298942, 0, 0.283391595, 0)
+Gravity.Size = UDim2.new(0, 100, 0, 25)
+Gravity.ClearTextOnFocus = false
+Gravity.Font = Enum.Font.Gotham
+Gravity.PlaceholderColor3 = Color3.fromRGB(200, 200, 200)
+Gravity.PlaceholderText = "Gravity"
+Gravity.Text = ""
+Gravity.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gravity.TextSize = 14.000
+Gravity.TextWrapped = true
+
+UICorner_7.Parent = Gravity
+
+PersonAndAController.Name = "PersonAndAController"
+PersonAndAController.Parent = PlayerConfiguration
+PersonAndAController.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PersonAndAController.BackgroundTransparency = 1.000
+PersonAndAController.Position = UDim2.new(0.166666672, 0, 0, 0)
+PersonAndAController.Size = UDim2.new(0, 30, 0, 30)
+PersonAndAController.Image = "http://www.roblox.com/asset/?id=12902230317"
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = PlayerConfiguration
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+WalkSpeed.Position = UDim2.new(0.0402298942, 0, 0.514160812, 0)
+WalkSpeed.Size = UDim2.new(0, 100, 0, 25)
+WalkSpeed.ClearTextOnFocus = false
+WalkSpeed.Font = Enum.Font.Gotham
+WalkSpeed.PlaceholderColor3 = Color3.fromRGB(200, 200, 200)
+WalkSpeed.PlaceholderText = "Walkspeed"
+WalkSpeed.Text = ""
+WalkSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeed.TextSize = 14.000
+WalkSpeed.TextWrapped = true
+
+UICorner_8.Parent = WalkSpeed
+
+JumpHeight.Name = "JumpHeight"
+JumpHeight.Parent = PlayerConfiguration
+JumpHeight.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+JumpHeight.Position = UDim2.new(0.0402298942, 0, 0.744930029, 0)
+JumpHeight.Size = UDim2.new(0, 100, 0, 25)
+JumpHeight.ClearTextOnFocus = false
+JumpHeight.Font = Enum.Font.Gotham
+JumpHeight.PlaceholderColor3 = Color3.fromRGB(200, 200, 200)
+JumpHeight.PlaceholderText = "Jumpheight"
+JumpHeight.Text = ""
+JumpHeight.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpHeight.TextSize = 14.000
+JumpHeight.TextWrapped = true
+
+UICorner_9.Parent = JumpHeight
+
+Leaf.Name = "Leaf"
+Leaf.Parent = PlayerConfiguration
+Leaf.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+Leaf.Position = UDim2.new(0.649425268, 0, 0.27692309, 0)
+Leaf.Size = UDim2.new(0, 53, 0, 25)
+Leaf.Image = "http://www.roblox.com/asset/?id=12902081912"
+Leaf.ScaleType = Enum.ScaleType.Fit
+
+UICorner_10.Parent = Leaf
+
+PersonRunning.Name = "PersonRunning"
+PersonRunning.Parent = PlayerConfiguration
+PersonRunning.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+PersonRunning.Position = UDim2.new(0.649425268, 0, 0.507692337, 0)
+PersonRunning.Size = UDim2.new(0, 53, 0, 25)
+PersonRunning.Image = "http://www.roblox.com/asset/?id=12902078356"
+PersonRunning.ScaleType = Enum.ScaleType.Fit
+
+UICorner_11.Parent = PersonRunning
+
+PersonJumping.Name = "PersonJumping"
+PersonJumping.Parent = PlayerConfiguration
+PersonJumping.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+PersonJumping.Position = UDim2.new(0.649425268, 0, 0.738461554, 0)
+PersonJumping.Size = UDim2.new(0, 53, 0, 25)
+PersonJumping.Image = "http://www.roblox.com/asset/?id=12902072531"
+PersonJumping.ScaleType = Enum.ScaleType.Fit
+
+UICorner_12.Parent = PersonJumping
+
+Border.Name = "Border"
+Border.Parent = PlayerConfiguration
+Border.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Border.BorderSizePixel = 0
+Border.Position = UDim2.new(0, 0, 0.230769232, 0)
+Border.Size = UDim2.new(0, 174, 0, 1)
+
+LocalPlayerText.Name = "LocalPlayerText"
+LocalPlayerText.Parent = PlayerConfiguration
+LocalPlayerText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LocalPlayerText.BackgroundTransparency = 1.000
+LocalPlayerText.Position = UDim2.new(0.339080453, 0, 0, 0)
+LocalPlayerText.Size = UDim2.new(0, 79, 0, 30)
+LocalPlayerText.Font = Enum.Font.GothamMedium
+LocalPlayerText.Text = "LocalPlayer"
+LocalPlayerText.TextColor3 = Color3.fromRGB(255, 255, 255)
+LocalPlayerText.TextSize = 14.000
+
+GameInformation.Name = "GameInformation"
+GameInformation.Parent = MainFrame
+GameInformation.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+GameInformation.Position = UDim2.new(0.607843161, 0, 0.147286758, 0)
+GameInformation.Size = UDim2.new(0, 174, 0, 79)
+
+UICorner_13.Parent = GameInformation
+
+Earth.Name = "Earth"
+Earth.Parent = GameInformation
+Earth.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Earth.BackgroundTransparency = 1.000
+Earth.Position = UDim2.new(0.040229883, 0, -0.0126582282, 0)
+Earth.Size = UDim2.new(0, 30, 0, 30)
+Earth.Image = "http://www.roblox.com/asset/?id=11738116961"
+
+Border_2.Name = "Border"
+Border_2.Parent = GameInformation
+Border_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Border_2.BorderSizePixel = 0
+Border_2.Position = UDim2.new(0, 0, 0.367088616, 0)
+Border_2.Size = UDim2.new(0, 174, 0, 1)
+
+JobID.Name = "JobID"
+JobID.Parent = GameInformation
+JobID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JobID.BackgroundTransparency = 1.000
+JobID.Position = UDim2.new(0.0229885057, 0, 0.696202517, 0)
+JobID.Size = UDim2.new(0, 164, 0, 20)
+JobID.Font = Enum.Font.Gotham
+JobID.Text = "JobId:"
+JobID.TextColor3 = Color3.fromRGB(255, 255, 255)
+JobID.TextSize = 10.000
+JobID.TextWrapped = true
+JobID.TextXAlignment = Enum.TextXAlignment.Left
+JobID.TextYAlignment = Enum.TextYAlignment.Top
+
+Game.Name = "Game"
+Game.Parent = GameInformation
+Game.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Game.BackgroundTransparency = 1.000
+Game.Position = UDim2.new(0.0229885057, 0, 0.41772151, 0)
+Game.Size = UDim2.new(0, 164, 0, 20)
+Game.Font = Enum.Font.Gotham
+Game.Text = "Game:"
+Game.TextColor3 = Color3.fromRGB(255, 255, 255)
+Game.TextSize = 10.000
+Game.TextWrapped = true
+Game.TextXAlignment = Enum.TextXAlignment.Left
+Game.TextYAlignment = Enum.TextYAlignment.Top
+
+GameInformationText.Name = "GameInformationText"
+GameInformationText.Parent = GameInformation
+GameInformationText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameInformationText.BackgroundTransparency = 1.000
+GameInformationText.Position = UDim2.new(0.206896558, 0, -0.0126582282, 0)
+GameInformationText.Size = UDim2.new(0, 124, 0, 30)
+GameInformationText.Font = Enum.Font.GothamMedium
+GameInformationText.Text = "Game Information"
+GameInformationText.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameInformationText.TextSize = 14.000
+
+UpdatesFrame.Name = "UpdatesFrame"
+UpdatesFrame.Parent = MainFrame
+UpdatesFrame.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+UpdatesFrame.Position = UDim2.new(0.115468413, 0, 0.403100789, 0)
+UpdatesFrame.Size = UDim2.new(0, 219, 0, 110)
+
+UICorner_14.Parent = UpdatesFrame
+
+PaperAndAPen.Name = "PaperAndAPen"
+PaperAndAPen.Parent = UpdatesFrame
+PaperAndAPen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PaperAndAPen.BackgroundTransparency = 1.000
+PaperAndAPen.Position = UDim2.new(0.0593607388, 0, 0, 0)
+PaperAndAPen.Size = UDim2.new(0, 30, 0, 30)
+PaperAndAPen.Image = "http://www.roblox.com/asset/?id=11606523464"
+
+TextSupporter.Name = "TextSupporter"
+TextSupporter.Parent = UpdatesFrame
+TextSupporter.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+TextSupporter.BorderSizePixel = 0
+TextSupporter.Position = UDim2.new(0.0182648394, 0, 0.272727281, 0)
+TextSupporter.Size = UDim2.new(0, 211, 0, 74)
+
+UICorner_15.Parent = TextSupporter
+
+Updates.Name = "Updates"
+Updates.Parent = TextSupporter
+Updates.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updates.BackgroundTransparency = 1.000
+Updates.Position = UDim2.new(0.01421801, 0, 0.0270270277, 0)
+Updates.Size = UDim2.new(0, 205, 0, 74)
+Updates.Font = Enum.Font.Gotham
+Updates.Text = "[+] New UI"
+Updates.TextColor3 = Color3.fromRGB(255, 255, 255)
+Updates.TextSize = 12.000
+Updates.TextWrapped = true
+Updates.TextXAlignment = Enum.TextXAlignment.Left
+Updates.TextYAlignment = Enum.TextYAlignment.Top
+
+WhatsNewText.Name = "WhatsNewText"
+WhatsNewText.Parent = UpdatesFrame
+WhatsNewText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WhatsNewText.BackgroundTransparency = 1.000
+WhatsNewText.Position = UDim2.new(0.17926304, 0, 0, 0)
+WhatsNewText.Size = UDim2.new(0, 166, 0, 30)
+WhatsNewText.Font = Enum.Font.GothamMedium
+WhatsNewText.Text = "Whats New About V1.35"
+WhatsNewText.TextColor3 = Color3.fromRGB(255, 255, 255)
+WhatsNewText.TextSize = 14.000
+WhatsNewText.TextWrapped = true
+
+OtherStuff.Name = "OtherStuff"
+OtherStuff.Parent = MainFrame
+OtherStuff.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+OtherStuff.Position = UDim2.new(0.115468413, 0, 0.855972528, 0)
+OtherStuff.Size = UDim2.new(0, 219, 0, 33)
+
+UICorner_16.Parent = OtherStuff
+
+KeyChange.Name = "KeyChange"
+KeyChange.Parent = OtherStuff
+KeyChange.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KeyChange.BackgroundTransparency = 1.000
+KeyChange.Position = UDim2.new(0.0316492394, 0, 0.100908637, 0)
+KeyChange.Size = UDim2.new(0, 107, 0, 14)
+KeyChange.Font = Enum.Font.Gotham
+KeyChange.Text = "Key Change: 2/22/22"
+KeyChange.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyChange.TextSize = 10.000
+KeyChange.TextWrapped = true
+
+Version_2.Name = "Version"
+Version_2.Parent = OtherStuff
+Version_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version_2.BackgroundTransparency = 1.000
+Version_2.Position = UDim2.new(0.0316492468, 0, 0.434242129, 0)
+Version_2.Size = UDim2.new(0, 107, 0, 14)
+Version_2.Font = Enum.Font.Gotham
+Version_2.Text = "Version: V1.35"
+Version_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version_2.TextSize = 10.000
+Version_2.TextWrapped = true
+
+Discord.Name = "Discord"
+Discord.Parent = OtherStuff
+Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord.Position = UDim2.new(0.840182722, 0, 0.0606060028, 0)
+Discord.Size = UDim2.new(0, 28, 0, 28)
+Discord.Image = "http://www.roblox.com/asset/?id=10735070439"
+
+UICorner_17.Parent = Discord
+
+Flag.Name = "Flag"
+Flag.Parent = OtherStuff
+Flag.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Flag.Position = UDim2.new(0.680365384, 0, 0.0606060028, 0)
+Flag.Size = UDim2.new(0, 28, 0, 28)
+Flag.Image = "http://www.roblox.com/asset/?id=12904923643"
+
+UICorner_18.Parent = Flag
+
+-- Scripts:
+
+local function UCUAUID_fake_script() -- ProfilePicture.LocalScript 
+	local script = Instance.new('LocalScript', ProfilePicture)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+end
+coroutine.wrap(UCUAUID_fake_script)()
