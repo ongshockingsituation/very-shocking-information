@@ -3,10 +3,6 @@
 
 -- Instances:
 
-local VHubCoreScreen = Instance.new("Folder")
-local DragScreen = Instance.new("ScreenGui")
-local DragFrame = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
 local MainFrame = Instance.new("Frame")
 local BarFrame = Instance.new("Frame")
 local VHubLogo = Instance.new("ImageLabel")
@@ -72,26 +68,8 @@ local UICorner_18 = Instance.new("UICorner")
 
 --Properties:
 
-VHubCoreScreen.Name = "VHubCoreScreen"
-VHubCoreScreen.Parent = (game:GetService("CoreGui") or gethui())
-
-DragScreen.Name = "DragScreen"
-DragScreen.Parent = VHubCoreScreen
-DragScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-DragScreen.ResetOnSpawn = false
-
-DragFrame.Name = "DragFrame"
-DragFrame.Parent = DragScreen
-DragFrame.Active = true
-DragFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-DragFrame.BackgroundTransparency = 0.500
-DragFrame.Position = UDim2.new(0.196224764, 0, 0.178353652, 0)
-DragFrame.Size = UDim2.new(0, 460, 0, 258)
-
-UICorner.Parent = DragFrame
-
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = DragFrame
+MainFrame.Name = "Home"
+MainFrame.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame
 MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MainFrame.BackgroundTransparency = 1.000
 MainFrame.Size = UDim2.new(0, 459, 0, 258)
