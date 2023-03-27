@@ -17,7 +17,7 @@ FrameHolder.Name = "FrameHolder"
 FrameHolder.Parent = VHubN
 FrameHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 FrameHolder.BackgroundTransparency = 1.000
-FrameHolder.Position = UDim2.new(0.765420496, 0, 0, 0)
+FrameHolder.Position = UDim2.new(0.755420496, 0, 0, 0)
 FrameHolder.Size = UDim2.new(0.235000014, 0, 0.848372579, 0)
 
 UIListLayout.Parent = FrameHolder
@@ -134,10 +134,10 @@ UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Left
 	a.HeaderText.BorderSizePixel = 0
 	a.HeaderText.Position = UDim2.new(0.02435131, 0, 0.046548333, 0)
 	a.HeaderText.Size = UDim2.new(0.952898562, 0, 0.901408434, 0)
-	a.HeaderText.Font = Enum.Font.GothamBold
+	a.HeaderText.Font = Enum.Font.GothamMedium
 	a.HeaderText.Text = tostring(Content)
 	a.HeaderText.TextColor3 = Color3.fromRGB(255, 255, 255)
-	a.HeaderText.TextSize = 14.000
+	a.HeaderText.TextSize = 13.000
 	a.HeaderText.TextWrapped = true
 	a.HeaderText.TextXAlignment = Enum.TextXAlignment.Left
 
