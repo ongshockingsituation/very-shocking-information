@@ -7,7 +7,7 @@ local Library = {}
 function Library:Create(Title, Content, Duration)
 
 local VHubN = Instance.new("ScreenGui")
-local FrameHolder = Instance.new("TextLabel")
+local FrameHolder = Instance.new("Frame")
 local UIListLayout = Instance.new("UIListLayout")
 
 VHubN.Name = "VHubN"
