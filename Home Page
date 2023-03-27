@@ -68,7 +68,7 @@ local UICorner_18 = Instance.new("UICorner")
 
 -- Changing Stuff
 
-Local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo
+local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo
 
 --Properties:
 
