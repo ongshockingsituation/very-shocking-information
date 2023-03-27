@@ -1,5 +1,5 @@
 local VHubCLogo = Instance.new("ImageLabel")
-local Version = Instance.new("TextLabel")
+local CVersion = Instance.new("TextLabel")
 
 VHubCLogo.Name = "VHubCLogo"
 VHubCLogo.Parent = game:GetService("CoreGui").VHubCoreScreen
