@@ -4,7 +4,7 @@
 
 local Library = {}
 
-function Library:Create(Title, Content, Duration)
+function Library:Create(Content, Duration)
 
 local VHubN = Instance.new("ScreenGui")
 
@@ -29,7 +29,7 @@ a.Notification.BackgroundTransparency = 0
 a.Notification.Position = UDim2.new(0.1, 0, 0.75, 0)
 a.Notification.Size = UDim2.new(0.8, 0, 0.05, 0)
 a.Notification.Font = Enum.Font.GothamMedium
-a.Notification.Text = tostring(Title) <font color=\"rgb(255, 255, 255)\">|</font>..":"..tostring(Content)
+a.Notification.Text = tostring(Content)
 a.Notification.TextColor3 = Color3.fromRGB(255, 255, 255)
 a.Notification.TextScaled = false
 a.Notification.TextSize = 14.000
