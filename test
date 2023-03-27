@@ -1,0 +1,54 @@
+---Open sourced---
+
+--Credits to Mole & Quan
+
+local Library = {}
+
+function Library:Create(Content, Duration)
+
+local VHubN = Instance.new("ScreenGui")
+
+VHubN.Name = "VHubN"
+VHubN.Parent = game:GetService("CoreGui")
+
+	local a = {
+local Notification = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+	} 
+
+local TweenService = game:GetService("TweenService")
+local time = 1
+
+local Disappear = TweenService:Create(a.Notification, TweenInfo.new(time), {Transparency = 1})
+local Appear = TweenService:Create(a.Notification, TweenInfo.new(time), {Transparency = 0})
+
+a.Notification.Name = "Notification"
+a.Notification.Parent = VHubN
+a.Notification.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+a.Notification.BackgroundTransparency = 0
+a.Notification.Position = UDim2.new(0.1, 0, 0.75, 0)
+a.Notification.Size = UDim2.new(0.8, 0, 0.05, 0)
+a.Notification.Font = Enum.Font.GothamMedium
+a.Notification.Text = tostring(Content)
+a.Notification.TextColor3 = Color3.fromRGB(255, 255, 255)
+a.Notification.TextScaled = false
+a.Notification.TextSize = 20.000
+a.Notification.TextWrapped = true
+a.Notification.TextTransparency = 0
+a.Notification.TextStrokeTransparency = 1
+a.Notification.Transparency = 1
+
+a.UICorner.Parent = a.Notification
+
+
+	Appear:Play()
+
+	task.spawn(function() 
+		wait(Duration)
+		Disappear:Play()
+		wait(1)
+		a.Notification:Destroy()
+	end)
+end
+
+return Library
