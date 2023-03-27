@@ -108,7 +108,7 @@ UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Left
 	a.Icon.BackgroundTransparency = 1.000
 	a.Icon.Position = UDim2.new(-0.0045657903, 0, -0.117156506, 0)
 	a.Icon.Size = UDim2.new(0.107266434, 0, 1.19354844, 0)
-	a.Icon.Image = "rbxassetid://9408318893"
+	a.Icon.Image = "rbxassetid://12193614978"
 	a.Icon.ScaleType = Enum.ScaleType.Fit
 
 	a.HeaderFrame.Name = "HeaderFrame"
