@@ -7,8 +7,24 @@ local Library = {}
 function Library:Create(Title, Content, Duration)
 
 local VHubN = Instance.new("ScreenGui")
+local FrameHolder = Instance.new("TextLabel")
+local UIListLayout = Instance.new("UIListLayout")
 
+VHubN.Name = "VHubN"
 VHubN.Parent = game:GetService("CoreGui")
+
+FrameHolder.Name = "FrameHolder"
+FrameHolder.Parent = VHubN
+FrameHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FrameHolder.BackgroundTransparency = 1.000
+FrameHolder.Position = UDim2.new(0.765420496, 0, 0, 0)
+FrameHolder.Size = UDim2.new(0.235000014, 0, 0.848372579, 0)
+
+UIListLayout.Parent = FrameHolder
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom
+UIListLayout.FillDirection = Enum.FillDirection.Vertical
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Left
 
 	local a = {
 		NotificationHolder = Instance.new("Frame"),
@@ -29,7 +45,7 @@ VHubN.Parent = game:GetService("CoreGui")
 	local come = game:GetService("TweenService"):Create(a.main, TweenInfo.new(1.5, Enum.EasingStyle.Quint), {Position = UDim2.new(0, 0, -0.00988808367, 0)})
 	local fuckyourself = game:GetService("TweenService"):Create(a.main, TweenInfo.new(1.5, Enum.EasingStyle.Quint), {Position = UDim2.new(1.01, 0, -0.00988808367, 0)})
 	
-	local MAINHOLDER = VHubN
+	local MAINHOLDER = FrameHolder
 
 	a.NotificationHolder.Name = "NotificationHolder"
 	a.NotificationHolder.Parent = MAINHOLDER
