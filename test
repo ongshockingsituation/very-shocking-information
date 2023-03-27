@@ -4,7 +4,7 @@
 
 local Library = {}
 
-function Library:Create(Content, Duration)
+function Library:Create(Title, Content, Duration)
 
 local VHubN = Instance.new("ScreenGui")
 
