@@ -12,8 +12,8 @@ VHubN.Name = "VHubN"
 VHubN.Parent = game:GetService("CoreGui")
 
 	local a = {
-local Notification = Instance.new("TextLabel")
-local UICorner = Instance.new("UICorner")
+Notification = Instance.new("TextLabel"),
+UICorner = Instance.new("UICorner")
 	} 
 
 local TweenService = game:GetService("TweenService")
