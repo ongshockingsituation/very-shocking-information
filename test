@@ -12,7 +12,7 @@ VHubN.Name = "VHubN"
 VHubN.Parent = game:GetService("CoreGui")
 
 	local a = {
-Notification = Instance.new("TextLabel"),
+Notification = Instance.new("TextButton"),
 UICorner = Instance.new("UICorner")
 	} 
 
@@ -37,6 +37,12 @@ a.Notification.TextWrapped = true
 a.Notification.TextTransparency = 0
 a.Notification.TextStrokeTransparency = 1
 a.Notification.Transparency = 1
+a.Notification.Active = true
+a.Notification.MouseButton1Down:connect(function()
+Disappear:Play()
+wait(1)
+a.Notification:Destroy()
+end)
 
 a.UICorner.Parent = a.Notification
 
