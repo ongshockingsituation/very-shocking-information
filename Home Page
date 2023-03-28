@@ -556,15 +556,15 @@ MainFrame.Visible = false
 end)
 
 Leaf.MouseButton1Down:connect(function()
-game:GetService("Workspace").Gravity = Gravity
+game:GetService("Workspace").Gravity = Gravity.Text
 end)
 
 PersonRunning.MouseButton1Down:connect(function()
-Character.Humanoid.WalkSpeed = WalkSpeed
+Character.Humanoid.WalkSpeed = WalkSpeed.Text
 end)
 
 PersonJumping.MouseButton1Down:connect(function()
-Character.Humanoid.JumpPower = JumpPower
+Character.Humanoid.JumpPower = JumpPower.Text
 end)
 
 -- Scripts:
