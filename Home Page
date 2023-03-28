@@ -568,7 +568,7 @@ PersonJumping.MouseButton1Down:connect(function()
 Character.Humanoid.JumpPower = JumpPower.Text
 end)
 
-JoinDiscord.MouseButton1Down:connect(function()
+Discord.MouseButton1Down:connect(function()
 setclipboard("discord.gg/3NN5zTW7h2")
 Notification:Create("Copied To Clipboard!",5)
 end)
