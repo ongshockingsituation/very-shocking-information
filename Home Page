@@ -74,6 +74,11 @@ local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
 local changekey = game:GetService("CoreGui").VHubCoreScreen.ChangeKey.Text
 local gamename = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 local latestupdates = game:GetService("CoreGui").VHubCoreScreen.Updates.Text
+local Players = game:GetService("Players").LocalPlayer
+local JPower = Players.Character
+Character.Humanoid.JumpPower
+local WSpeed = Players.Character
+Character.Humanoid.WalkSpeed
 
 --Properties:
 
@@ -272,8 +277,8 @@ WalkSpeed.Size = UDim2.new(0, 100, 0, 25)
 WalkSpeed.ClearTextOnFocus = false
 WalkSpeed.Font = Enum.Font.Gotham
 WalkSpeed.PlaceholderColor3 = Color3.fromRGB(200, 200, 200)
-WalkSpeed.PlaceholderText = game:GetService("Workspace").playern.WalkSpeed
-WalkSpeed.Text = game:GetService("Workspace").playern.WalkSpeed
+WalkSpeed.PlaceholderText = WSpeed
+WalkSpeed.Text = WSpeed
 WalkSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
 WalkSpeed.TextSize = 14.000
 WalkSpeed.TextWrapped = true
@@ -288,8 +293,8 @@ JumpPower.Size = UDim2.new(0, 100, 0, 25)
 JumpPower.ClearTextOnFocus = false
 JumpPower.Font = Enum.Font.Gotham
 JumpPower.PlaceholderColor3 = Color3.fromRGB(200, 200, 200)
-JumpPower.PlaceholderText = game:GetService("Workspace").playern.JumpPower
-JumpPower.Text = game:GetService("Workspace").playern.JumpPower
+JumpPower.PlaceholderText = JPower
+JumpPower.Text = JPower
 JumpPower.TextColor3 = Color3.fromRGB(255, 255, 255)
 JumpPower.TextSize = 14.000
 JumpPower.TextWrapped = true
