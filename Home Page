@@ -517,7 +517,42 @@ game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
 end)
 
 Settings.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.Settings.Visible = false
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.Settings.Visible = true
+end)
+
+HomeTab.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.HomeTab.Visible = true
+MainFrame.Visible = false
+end)
+
+ScriptsTab.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Scripts1.Visible = true
+MainFrame.Visible = false
+end)
+
+RequiredAccessoriesTab.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.RequiredAccessories1.Visible = true
+MainFrame.Visible = false
+end)
+
+GuisTab.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Guis1.Visible = true
+MainFrame.Visible = false
+end)
+
+AnimationsTab.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Animations1.Visible = true
+MainFrame.Visible = false
+end)
+
+CommandsTab.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Commands1.Visible = true
+MainFrame.Visible = false
+end)
+
+OtherHubsTab.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.OtherHubs1.Visible = true
+MainFrame.Visible = false
 end)
 
 -- Scripts:
