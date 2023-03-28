@@ -1,15 +1,6 @@
----Open sourced---
-
---Credits to Mole & Quan
-
 local Library = {}
 
 function Library:Create(Content, Duration)
-
-local VHubN = Instance.new("ScreenGui")
-
-VHubN.Name = "VHubN"
-VHubN.Parent = game:GetService("CoreGui")
 
 	local a = {
 Notification = Instance.new("TextButton"),
@@ -23,7 +14,7 @@ local Disappear = TweenService:Create(a.Notification, TweenInfo.new(time), {Tran
 local Appear = TweenService:Create(a.Notification, TweenInfo.new(time), {Transparency = 0})
 
 a.Notification.Name = "Notification"
-a.Notification.Parent = VHubN
+a.Notification.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen
 a.Notification.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 a.Notification.BackgroundTransparency = 0
 a.Notification.Position = UDim2.new(0.1, 0, 0.75, 0)
