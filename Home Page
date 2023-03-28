@@ -509,6 +509,17 @@ Flag.Image = "http://www.roblox.com/asset/?id=12904923643"
 
 UICorner_18.Parent = Flag
 
+-- Button Functions:
+
+Close.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.OpenButton.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
+end)
+
+Settings.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.Settings.Visible = false
+end)
+
 -- Scripts:
 
 local function UCUAUID_fake_script() -- ProfilePicture.LocalScript 
