@@ -69,6 +69,9 @@ local UICorner_18 = Instance.new("UICorner")
 -- Changing Stuff
 
 local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
+local playern = game:GetService("Players").LocalPlayer.Name
+local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
+local changekey = game:GetService("CoreGui").VHubCoreScreen.ChangeKey.Text
 
 --Properties:
 
@@ -123,7 +126,7 @@ Version.BackgroundTransparency = 1.000
 Version.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
 Version.Size = UDim2.new(0, 90, 0, 6)
 Version.Font = Enum.Font.Gotham
-Version.Text = "V1.35"
+Version.Text = cversion
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 Settings.Name = "Settings"
