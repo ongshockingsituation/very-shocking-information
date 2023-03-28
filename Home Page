@@ -33,7 +33,7 @@ local UICorner_7 = Instance.new("UICorner")
 local PersonAndAController = Instance.new("ImageLabel")
 local WalkSpeed = Instance.new("TextBox")
 local UICorner_8 = Instance.new("UICorner")
-local JumpHeight = Instance.new("TextBox")
+local JumpPower = Instance.new("TextBox")
 local UICorner_9 = Instance.new("UICorner")
 local Leaf = Instance.new("ImageButton")
 local UICorner_10 = Instance.new("UICorner")
@@ -280,21 +280,21 @@ WalkSpeed.TextWrapped = true
 
 UICorner_8.Parent = WalkSpeed
 
-JumpHeight.Name = "JumpHeight"
-JumpHeight.Parent = PlayerConfiguration
-JumpHeight.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
-JumpHeight.Position = UDim2.new(0.0402298942, 0, 0.744930029, 0)
-JumpHeight.Size = UDim2.new(0, 100, 0, 25)
-JumpHeight.ClearTextOnFocus = false
-JumpHeight.Font = Enum.Font.Gotham
-JumpHeight.PlaceholderColor3 = Color3.fromRGB(200, 200, 200)
-JumpHeight.PlaceholderText = "Jumpheight"
-JumpHeight.Text = game:GetService("Workspace").playern.JumpHeight
-JumpHeight.TextColor3 = Color3.fromRGB(255, 255, 255)
-JumpHeight.TextSize = 14.000
-JumpHeight.TextWrapped = true
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = PlayerConfiguration
+JumpPower.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+JumpPower.Position = UDim2.new(0.0402298942, 0, 0.744930029, 0)
+JumpPower.Size = UDim2.new(0, 100, 0, 25)
+JumpPower.ClearTextOnFocus = false
+JumpPower.Font = Enum.Font.Gotham
+JumpPower.PlaceholderColor3 = Color3.fromRGB(200, 200, 200)
+JumpPower.PlaceholderText = game:GetService("Workspace").playern.JumpPower
+JumpPower.Text = game:GetService("Workspace").playern.JumpPower
+JumpPower.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPower.TextSize = 14.000
+JumpPower.TextWrapped = true
 
-UICorner_9.Parent = JumpHeight
+UICorner_9.Parent = JumpPower
 
 Leaf.Name = "Leaf"
 Leaf.Parent = PlayerConfiguration
