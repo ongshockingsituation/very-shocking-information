@@ -1,5 +1,6 @@
 local VHubCLogo = Instance.new("ImageLabel")
 local CVersion = Instance.new("TextLabel")
+local ChangeKey = Instance.new("TextLabel")
 
 VHubCLogo.Name = "VHubCLogo"
 VHubCLogo.Parent = game:GetService("CoreGui").VHubCoreScreen
@@ -20,3 +21,14 @@ CVersion.Font = Enum.Font.Gotham
 CVersion.Text = "V1.35"
 CVersion.Visible = false
 CVersion.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+ChangeKey.Name = "ChangeKey"
+ChangeKey.Parent = game:GetService("CoreGui").VHubCoreScreen
+ChangeKey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChangeKey.BackgroundTransparency = 1.000
+ChangeKey.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
+ChangeKey.Size = UDim2.new(0, 90, 0, 6)
+ChangeKey.Font = Enum.Font.Gotham
+ChangeKey.Text = "2/22/22
+ChangeKey.Visible = false
+ChangeKey.TextColor3 = Color3.fromRGB(255, 255, 255)
