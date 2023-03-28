@@ -1,7 +1,7 @@
 -- (VOID) : Gui to Lua
 -- Version: 1.4
 
--- Instances:
+-- Gui Instances:
 
 local MainFrame = Instance.new("Frame")
 local BarFrame = Instance.new("Frame")
@@ -66,7 +66,7 @@ local UICorner_17 = Instance.new("UICorner")
 local Flag = Instance.new("ImageButton")
 local UICorner_18 = Instance.new("UICorner")
 
--- Important Local
+-- Locals
 
 local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
 local playern = game:GetService("Players").LocalPlayer.Name
@@ -76,6 +76,7 @@ local gamename = game:GetService("MarketplaceService"):GetProductInfo(game.Place
 local latestupdates = game:GetService("CoreGui").VHubCoreScreen.Updates.Text
 local Players = game:GetService("Players").LocalPlayer
 local Character = Players.Character
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 
 --Properties:
 
@@ -565,6 +566,16 @@ end)
 
 PersonJumping.MouseButton1Down:connect(function()
 Character.Humanoid.JumpPower = JumpPower.Text
+end)
+
+JoinDiscord.MouseButton1Down:connect(function()
+setclipboard("discord.gg/3NN5zTW7h2")
+Notification:Create("Copied To Clipboard!",5)
+end)
+
+Flag.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Support.Visible = true
+MainFrame.Visible = false
 end)
 
 -- Scripts:
