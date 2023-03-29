@@ -88,7 +88,7 @@ local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 local NameTab = "Scripts"
 local PageNumber = "1"
-local SIcon = http://www.roblox.com/asset/?id=11592851654
+local SIcon = "http://www.roblox.com/asset/?id=11592851654"
 
 -- Functions:
 
