@@ -895,5 +895,5 @@ Execute5.Visible = false
 Execute6.Visible = true
 ScriptName.Text = ScriptName6.Text
 ScriptCreator.Text = "Unknown"
-Notification:Create("Notice: "..ScriptName4.Text.." Only Works On Some Games.",5)
+Notification:Create("Notice: "..ScriptName6.Text.." Only Works On Some Games.",5)
 end)
