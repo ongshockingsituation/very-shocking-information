@@ -317,7 +317,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.Position = UDim2.new(0.350000024, 0, 0, 0)
 ImageLabel.Size = UDim2.new(0, 18, 0, 18)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=11592824883"
+ImageLabel.Image = SIcon
 
 ClickToPickText.Name = "ClickToPickText"
 ClickToPickText.Parent = ScriptButton1
@@ -360,7 +360,7 @@ ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_2.BackgroundTransparency = 1.000
 ImageLabel_2.Position = UDim2.new(0.350000024, 0, 0, 0)
 ImageLabel_2.Size = UDim2.new(0, 18, 0, 18)
-ImageLabel_2.Image = "http://www.roblox.com/asset/?id=11592824883"
+ImageLabel_2.Image = SIcon
 
 ClickToPickText_2.Name = "ClickToPickText"
 ClickToPickText_2.Parent = ScriptButton2
@@ -403,7 +403,7 @@ ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_3.BackgroundTransparency = 1.000
 ImageLabel_3.Position = UDim2.new(0.350000024, 0, 0, 0)
 ImageLabel_3.Size = UDim2.new(0, 18, 0, 18)
-ImageLabel_3.Image = "http://www.roblox.com/asset/?id=11592824883"
+ImageLabel_3.Image = SIcon
 
 ClickToPickText_3.Name = "ClickToPickText"
 ClickToPickText_3.Parent = ScriptButton3
@@ -446,7 +446,7 @@ ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_4.BackgroundTransparency = 1.000
 ImageLabel_4.Position = UDim2.new(0.350000024, 0, 0, 0)
 ImageLabel_4.Size = UDim2.new(0, 18, 0, 18)
-ImageLabel_4.Image = "http://www.roblox.com/asset/?id=11592824883"
+ImageLabel_4.Image = SIcon
 
 ClickToPickText_4.Name = "ClickToPickText"
 ClickToPickText_4.Parent = ScriptButton4
@@ -489,7 +489,7 @@ ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_5.BackgroundTransparency = 1.000
 ImageLabel_5.Position = UDim2.new(0.350000024, 0, 0, 0)
 ImageLabel_5.Size = UDim2.new(0, 18, 0, 18)
-ImageLabel_5.Image = "http://www.roblox.com/asset/?id=11592824883"
+ImageLabel_5.Image = SIcon
 
 ClickToPickText_5.Name = "ClickToPickText"
 ClickToPickText_5.Parent = ScriptButton5
@@ -532,7 +532,7 @@ ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_6.BackgroundTransparency = 1.000
 ImageLabel_6.Position = UDim2.new(0.350000024, 0, 0, 0)
 ImageLabel_6.Size = UDim2.new(0, 18, 0, 18)
-ImageLabel_6.Image = "http://www.roblox.com/asset/?id=11592824883"
+ImageLabel_6.Image = SIcon
 
 ClickToPickText_6.Name = "ClickToPickText"
 ClickToPickText_6.Parent = ScriptButton6
