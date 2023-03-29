@@ -90,6 +90,14 @@ local TabName = "Scripts"
 local PageNumber = "1"
 local SIcon = http://www.roblox.com/asset/?id=11592851654
 
+-- Functions:
+
+function R6()
+	if game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").RigType == Enum.HumanoidRigType.R6 then
+		return true
+	end
+end
+
 --Properties:
 
 MainFrame.Name = "Scripts1"
