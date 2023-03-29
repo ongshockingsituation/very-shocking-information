@@ -86,9 +86,9 @@ local UICorner_21 = Instance.new("UICorner")
 local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
 local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
-local TabName = Scripts
-local PageD = 1
-local SIcon = 
+local TabName = "Scripts"
+local PageNumber = "1"
+local SIcon = http://www.roblox.com/asset/?id=11592851654
 
 --Properties:
 
@@ -97,6 +97,7 @@ MainFrame.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFram
 MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MainFrame.BackgroundTransparency = 1.000
 MainFrame.Size = UDim2.new(0, 459, 0, 258)
+MainFrame.Visible = false
 
 BarFrame.Name = "BarFrame"
 BarFrame.Parent = MainFrame
@@ -118,7 +119,7 @@ TabName.BackgroundTransparency = 1.000
 TabName.Position = UDim2.new(0.0695652142, 0, 0, 0)
 TabName.Size = UDim2.new(0, 300, 0, 30)
 TabName.Font = Enum.Font.GothamMedium
-TabName.Text = "VHub | Required Accessories"
+TabName.Text = "VHub | "..TabName
 TabName.TextColor3 = Color3.fromRGB(255, 255, 255)
 TabName.TextSize = 14.000
 TabName.TextXAlignment = Enum.TextXAlignment.Left
@@ -143,7 +144,7 @@ Version.BackgroundTransparency = 1.000
 Version.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
 Version.Size = UDim2.new(0, 90, 0, 6)
 Version.Font = Enum.Font.Gotham
-Version.Text = "V1.35"
+Version.Text = cversion
 Version.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 Settings.Name = "Settings"
@@ -252,7 +253,7 @@ TabNameAndPage.BackgroundTransparency = 1.000
 TabNameAndPage.Position = UDim2.new(0.0992555842, 0, 0, 0)
 TabNameAndPage.Size = UDim2.new(0, 292, 0, 35)
 TabNameAndPage.Font = Enum.Font.GothamMedium
-TabNameAndPage.Text = "Required Accessories | Page 1"
+TabNameAndPage.Text = TabName.." | Page 1"
 TabNameAndPage.TextColor3 = Color3.fromRGB(255, 255, 255)
 TabNameAndPage.TextSize = 16.000
 TabNameAndPage.TextXAlignment = Enum.TextXAlignment.Left
