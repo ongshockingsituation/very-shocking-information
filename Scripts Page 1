@@ -694,6 +694,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/XSkZEkaV'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."! ☑️",5)
 elseif not R6() then
 Notification:Create("Script: "..ScriptName2.Text.." Only Works In R6 Games. ❌",5)
+end
 end)
 
 -- Button Functions:
