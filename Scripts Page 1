@@ -86,7 +86,7 @@ local UICorner_21 = Instance.new("UICorner")
 local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
 local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
-local TabName = "Scripts"
+local NameTab = "Scripts"
 local PageNumber = "1"
 local SIcon = http://www.roblox.com/asset/?id=11592851654
 
@@ -127,7 +127,7 @@ TabName.BackgroundTransparency = 1.000
 TabName.Position = UDim2.new(0.0695652142, 0, 0, 0)
 TabName.Size = UDim2.new(0, 300, 0, 30)
 TabName.Font = Enum.Font.GothamMedium
-TabName.Text = "VHub | "..TabName
+TabName.Text = "VHub | "..NameTab
 TabName.TextColor3 = Color3.fromRGB(255, 255, 255)
 TabName.TextSize = 14.000
 TabName.TextXAlignment = Enum.TextXAlignment.Left
@@ -261,7 +261,7 @@ TabNameAndPage.BackgroundTransparency = 1.000
 TabNameAndPage.Position = UDim2.new(0.0992555842, 0, 0, 0)
 TabNameAndPage.Size = UDim2.new(0, 292, 0, 35)
 TabNameAndPage.Font = Enum.Font.GothamMedium
-TabNameAndPage.Text = TabName.." | Page 1"
+TabNameAndPage.Text = NameTab.." | Page 1"
 TabNameAndPage.TextColor3 = Color3.fromRGB(255, 255, 255)
 TabNameAndPage.TextSize = 16.000
 TabNameAndPage.TextXAlignment = Enum.TextXAlignment.Left
