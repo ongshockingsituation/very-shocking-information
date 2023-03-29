@@ -694,11 +694,6 @@ game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.HomeTab.Visible =
 MainFrame.Visible = false
 end)
 
-ScriptsTab.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Scripts1.Visible = true
-MainFrame.Visible = false
-end)
-
 RequiredAccessoriesTab.MouseButton1Down:connect(function()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.RequiredAccessories1.Visible = true
 MainFrame.Visible = false
