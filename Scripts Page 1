@@ -690,7 +690,7 @@ game:GetService("CoreGui").VHubCoreScreen.DragScreen.Settings.Visible = true
 end)
 
 HomeTab.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.HomeTab.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Home.Visible = true
 MainFrame.Visible = false
 end)
 
