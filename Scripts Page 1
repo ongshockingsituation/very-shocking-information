@@ -692,31 +692,85 @@ end)
 HomeTab.MouseButton1Down:connect(function()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Home.Visible = true
 MainFrame.Visible = false
+Execute.Visible = true
+Execute1.Visible = false
+Execute2.Visible = false
+Execute3.Visible = false
+Execute4.Visible = false
+Execute5.Visible = false
+Execute6.Visible = false
+ScriptName.Text = Pick A Script.
+ScriptCreator.Text = "Veinc#0001"
 end)
 
 RequiredAccessoriesTab.MouseButton1Down:connect(function()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.RequiredAccessories1.Visible = true
 MainFrame.Visible = false
+Execute.Visible = true
+Execute1.Visible = false
+Execute2.Visible = false
+Execute3.Visible = false
+Execute4.Visible = false
+Execute5.Visible = false
+Execute6.Visible = false
+ScriptName.Text = Pick A Script.
+ScriptCreator.Text = "Veinc#0001"
 end)
 
 GuisTab.MouseButton1Down:connect(function()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Guis1.Visible = true
 MainFrame.Visible = false
+Execute.Visible = true
+Execute1.Visible = false
+Execute2.Visible = false
+Execute3.Visible = false
+Execute4.Visible = false
+Execute5.Visible = false
+Execute6.Visible = false
+ScriptName.Text = Pick A Script.
+ScriptCreator.Text = "Veinc#0001"
 end)
 
 AnimationsTab.MouseButton1Down:connect(function()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Animations1.Visible = true
 MainFrame.Visible = false
+Execute.Visible = true
+Execute1.Visible = false
+Execute2.Visible = false
+Execute3.Visible = false
+Execute4.Visible = false
+Execute5.Visible = false
+Execute6.Visible = false
+ScriptName.Text = Pick A Script.
+ScriptCreator.Text = "Veinc#0001"
 end)
 
 CommandsTab.MouseButton1Down:connect(function()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Commands1.Visible = true
 MainFrame.Visible = false
+Execute.Visible = true
+Execute1.Visible = false
+Execute2.Visible = false
+Execute3.Visible = false
+Execute4.Visible = false
+Execute5.Visible = false
+Execute6.Visible = false
+ScriptName.Text = Pick A Script.
+ScriptCreator.Text = "Veinc#0001"
 end)
 
 OtherHubsTab.MouseButton1Down:connect(function()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.OtherHubs1.Visible = true
 MainFrame.Visible = false
+Execute.Visible = true
+Execute1.Visible = false
+Execute2.Visible = false
+Execute3.Visible = false
+Execute4.Visible = false
+Execute5.Visible = false
+Execute6.Visible = false
+ScriptName.Text = Pick A Script.
+ScriptCreator.Text = "Veinc#0001"
 end)
 
 ScriptButton1.MouseButton1Down:connect(function()
