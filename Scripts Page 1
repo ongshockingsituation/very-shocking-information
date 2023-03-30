@@ -87,7 +87,9 @@ local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
 local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 local NameTab = "Scripts"
+local PPage = "0"
 local PageNumber = "1"
+local NPage = "2"
 local SIcon = "http://www.roblox.com/asset/?id=11592851654"
 
 -- Functions:
@@ -896,4 +898,32 @@ Execute6.Visible = true
 ScriptName.Text = ScriptName6.Text
 ScriptCreator.Text = "Unknown"
 Notification:Create("Notice: "..ScriptName6.Text.." Only Works On Some Games.",5)
+end)
+
+NextPage.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Scripts"..NPage..".Visible = true
+MainFrame.Visible = false
+Execute.Visible = true
+Execute1.Visible = false
+Execute2.Visible = false
+Execute3.Visible = false
+Execute4.Visible = false
+Execute5.Visible = false
+Execute6.Visible = false
+ScriptName.Text = "Pick A Script."
+ScriptCreator.Text = "Veinc#0001"
+end)
+
+PreviousPage.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Scripts"..PPage..".Visible = true
+MainFrame.Visible = false
+Execute.Visible = true
+Execute1.Visible = false
+Execute2.Visible = false
+Execute3.Visible = false
+Execute4.Visible = false
+Execute5.Visible = false
+Execute6.Visible = false
+ScriptName.Text = "Pick A Script."
+ScriptCreator.Text = "Veinc#0001"
 end)
