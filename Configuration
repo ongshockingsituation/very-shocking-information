@@ -19,7 +19,7 @@ CVersion.BackgroundTransparency = 1.000
 CVersion.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
 CVersion.Size = UDim2.new(0, 90, 0, 6)
 CVersion.Font = Enum.Font.Gotham
-CVersion.Text = "V1.35"
+CVersion.Text = "V1.36"
 CVersion.Visible = false
 CVersion.TextColor3 = Color3.fromRGB(255, 255, 255)
 
