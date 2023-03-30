@@ -102,7 +102,7 @@ end
 
 --Properties:
 
-MainFrame.Name = "Scripts1"
+MainFrame.Name = NameTab..""..PageNumber
 MainFrame.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame
 MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MainFrame.BackgroundTransparency = 1.000
