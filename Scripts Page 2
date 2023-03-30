@@ -87,9 +87,9 @@ local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
 local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 local NameTab = "Scripts"
-local PPage = 0
-local PageNumber = "1"
-local NPage = 2
+local PPage = 1
+local PageNumber = "2"
+local NPage = 3
 local SIcon = "http://www.roblox.com/asset/?id=11592851654"
 
 -- Functions:
@@ -682,53 +682,10 @@ UICorner_21.Parent = Execute6
 
 -- 6 Scripts Button Functions and Names:
 
-ScriptName1.Text = "Copy Chat Messages"
+ScriptName1.Text = "Spy On People's Private Chat"
 Execute1.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/NWMaSHhe'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Scripts/main/Spy%20Peoples%20Private%20Chat'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
-end)
-
-ScriptName2.Text = "Mega Hats"
-Execute2.MouseButton1Down:connect(function()
-if R6() then
-loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
-loadstring(game:HttpGet(('https://pastebin.com/raw/XSkZEkaV'),true))()
-Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
-elseif not R6() then
-Notification:Create("Script: "..ScriptName2.Text.." Only Works If Your Rig Type Is R6.",5)
-end
-end)
-
-ScriptName3.Text = "Eat Accessories"
-Execute3.MouseButton1Down:connect(function()
-if R6() then
-loadstring(game:HttpGet(('https://pastebin.com/raw/Th4jbiVn'),true))()
-Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
-elseif not R6() then
-Notification:Create("Script: "..ScriptName3.Text.." Only Works If Your Rig Type Is R6.",5)
-end
-end)
-
-ScriptName4.Text = "Anti Kick"
-Execute4.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/Yi2QRzTu'),true))()
-Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
-end)
-
-ScriptName5.Text = "Mesh Accessories"
-Execute5.MouseButton1Down:connect(function()
-if R6() then
-loadstring(game:HttpGet(('https://pastebin.com/raw/KuxL7e2R'),true))()
-Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
-elseif not R6() then
-Notification:Create("Script: "..ScriptName5.Text.." Only Works If Your Rig Type Is R6.",5)
-end
-end)
-
-ScriptName6.Text = "Kill Farm"
-Execute6.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/a0jjaAyd'),true))()
-Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 end)
 
 -- Button Functions:
@@ -872,7 +829,6 @@ Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = ScriptName4.Text
 ScriptCreator.Text = "Unknown"
-Notification:Create("Notice: "..ScriptName4.Text.." Only Works On Some Games.",5)
 end)
 
 ScriptButton5.MouseButton1Down:connect(function()
@@ -897,7 +853,6 @@ Execute5.Visible = false
 Execute6.Visible = true
 ScriptName.Text = ScriptName6.Text
 ScriptCreator.Text = "Unknown"
-Notification:Create("Notice: "..ScriptName6.Text.." Only Works On Some Games.",5)
 end)
 
 NextPage.MouseButton1Down:connect(function()
@@ -927,3 +882,29 @@ Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
 ScriptCreator.Text = "Veinc#0001"
 end)
+
+if ScriptName1.Text == "Coming Soon" then
+ScriptButton1.MouseButton1Down:connect(function()
+Notification:Create("Script: This Script Is Coming Soon Or Never.",5)
+end)
+elseif ScriptName2.Text == "Coming Soon" then
+ScriptButton2.MouseButton1Down:connect(function()
+Notification:Create("Script: This Script Is Coming Soon Or Never.",5)
+end)
+elseif ScriptName3.Text == "Coming Soon" then
+ScriptButton3.MouseButton1Down:connect(function()
+Notification:Create("Script: This Script Is Coming Soon Or Never.",5)
+end)
+elseif ScriptName4.Text == "Coming Soon" then
+ScriptButton4.MouseButton1Down:connect(function()
+Notification:Create("Script: This Script Is Coming Soon Or Never.",5)
+end)
+elseif ScriptName5.Text == "Coming Soon" then
+ScriptButton5.MouseButton1Down:connect(function()
+Notification:Create("Script: This Script Is Coming Soon Or Never.",5)
+end)
+elseif ScriptName6.Text == "Coming Soon" then
+ScriptButton6.MouseButton1Down:connect(function()
+Notification:Create("Script: This Script Is Coming Soon Or Never.",5)
+end)
+end
