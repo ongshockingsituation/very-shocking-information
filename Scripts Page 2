@@ -688,6 +688,48 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
 
+ScriptName2.Text = "Teleport Tool"
+Execute2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/n7wqcH9D'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
+end)
+
+ScriptName3.Text = "Telekinesis Gun"
+Execute3.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/uPc0ir3b'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
+end)
+
+ScriptName4.Text = "Ballon Stealer"
+Execute4.MouseButton1Down:connect(function()
+if game.PlaceId == 189707 then
+loadstring(game:HttpGet(('https://pastebin.com/raw/BVbG4ei7'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName4.Text.." Only Works In Natural Disasters Survival.",5)
+end
+end)
+
+ScriptName5.Text = "Color Block Auto Play"
+Execute5.MouseButton1Down:connect(function()
+if game.PlaceId == 5926001758 then
+loadstring(game:HttpGet(('https://pastebin.com/raw/tKu2vZrb'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName5.Text.." Only Works In Color Block.",5)
+end
+end)
+
+ScriptName6.Text = "Tower Of Hell Invincibility"
+Execute6.MouseButton1Down:connect(function()
+if game.PlaceId == 1962086868 then
+loadstring(game:HttpGet(('https://pastebin.com/raw/X8cG57XV'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName6.Text.." Only Works In Tower Of Hell.",5)
+end
+end)
+
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
