@@ -714,7 +714,7 @@ ScriptCreator.Text = "Veinc#0001"
 end)
 
 RequiredAccessoriesTab.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.RequiredAccessories1.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame["Required Accessories1"].Visible = true
 MainFrame.Visible = false
 Execute.Visible = true
 Execute1.Visible = false
@@ -770,7 +770,7 @@ ScriptCreator.Text = "Veinc#0001"
 end)
 
 OtherHubsTab.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.OtherHubs1.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame["Other Hubs1"].Visible = true
 MainFrame.Visible = false
 Execute.Visible = true
 Execute1.Visible = false
