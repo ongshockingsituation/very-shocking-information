@@ -695,7 +695,7 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 loadstring(game:HttpGet(('https://pastebin.com/raw/XSkZEkaV'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 elseif not R6() then
-Notification:Create("Script: "..ScriptName2.Text.." Only Works If Your Rig Type Is R6.",5)
+Notification:Create("Oops: "..ScriptName2.Text.." Only Works If Your Rig Type Is R6.",5)
 end
 end)
 
@@ -705,7 +705,7 @@ if R6() then
 loadstring(game:HttpGet(('https://pastebin.com/raw/Th4jbiVn'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 elseif not R6() then
-Notification:Create("Script: "..ScriptName3.Text.." Only Works If Your Rig Type Is R6.",5)
+Notification:Create("Oops: "..ScriptName3.Text.." Only Works If Your Rig Type Is R6.",5)
 end
 end)
 
@@ -721,7 +721,7 @@ if R6() then
 loadstring(game:HttpGet(('https://pastebin.com/raw/KuxL7e2R'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 elseif not R6() then
-Notification:Create("Script: "..ScriptName5.Text.." Only Works If Your Rig Type Is R6.",5)
+Notification:Create("Oops: "..ScriptName5.Text.." Only Works If Your Rig Type Is R6.",5)
 end
 end)
 
