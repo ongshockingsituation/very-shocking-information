@@ -179,7 +179,7 @@ HomeTab.Parent = TabsFrame
 HomeTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HomeTab.BackgroundTransparency = 1.000
 HomeTab.Size = UDim2.new(0, 30, 0, 30)
-HomeTab.Image = "http://www.roblox.com/asset/?id=11592840951"
+HomeTab.Image = "http://www.roblox.com/asset/?id=12951592060"
 
 UIListLayout.Parent = TabsFrame
 UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -191,42 +191,42 @@ ScriptsTab.Parent = TabsFrame
 ScriptsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScriptsTab.BackgroundTransparency = 1.000
 ScriptsTab.Size = UDim2.new(0, 30, 0, 30)
-ScriptsTab.Image = "http://www.roblox.com/asset/?id=11592851654"
+ScriptsTab.Image = "http://www.roblox.com/asset/?id=12951586029"
 
 RequiredAccessoriesTab.Name = "RequiredAccessoriesTab"
 RequiredAccessoriesTab.Parent = TabsFrame
 RequiredAccessoriesTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 RequiredAccessoriesTab.BackgroundTransparency = 1.000
 RequiredAccessoriesTab.Size = UDim2.new(0, 30, 0, 30)
-RequiredAccessoriesTab.Image = "http://www.roblox.com/asset/?id=11592824883"
+RequiredAccessoriesTab.Image = "http://www.roblox.com/asset/?id=12951596250"
 
 GuisTab.Name = "GuisTab"
 GuisTab.Parent = TabsFrame
 GuisTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 GuisTab.BackgroundTransparency = 1.000
 GuisTab.Size = UDim2.new(0, 30, 0, 30)
-GuisTab.Image = "http://www.roblox.com/asset/?id=11592848654"
+GuisTab.Image = "http://www.roblox.com/asset/?id=12951583508"
 
 AnimationsTab.Name = "AnimationsTab"
 AnimationsTab.Parent = TabsFrame
 AnimationsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 AnimationsTab.BackgroundTransparency = 1.000
 AnimationsTab.Size = UDim2.new(0, 30, 0, 30)
-AnimationsTab.Image = "http://www.roblox.com/asset/?id=11592835705"
+AnimationsTab.Image = "http://www.roblox.com/asset/?id=12951578528"
 
 CommandsTab.Name = "CommandsTab"
 CommandsTab.Parent = TabsFrame
 CommandsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CommandsTab.BackgroundTransparency = 1.000
 CommandsTab.Size = UDim2.new(0, 30, 0, 30)
-CommandsTab.Image = "http://www.roblox.com/asset/?id=11592837927"
+CommandsTab.Image = "http://www.roblox.com/asset/?id=12951588683"
 
 OtherHubsTab.Name = "OtherHubsTab"
 OtherHubsTab.Parent = TabsFrame
 OtherHubsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 OtherHubsTab.BackgroundTransparency = 1.000
 OtherHubsTab.Size = UDim2.new(0, 30, 0, 30)
-OtherHubsTab.Image = "http://www.roblox.com/asset/?id=11592850267"
+OtherHubsTab.Image = "http://www.roblox.com/asset/?id=12951581627"
 
 TabDescription.Name = "TabDescription"
 TabDescription.Parent = MainFrame
