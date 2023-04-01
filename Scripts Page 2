@@ -860,7 +860,7 @@ Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = ScriptName3.Text
 ScriptCreator.Text = "Unknown"
-Notification:Create("Notice: "..ScriptName3.Text.." Only Works Unanchored Parts.",5)
+Notification:Create("Notice: "..ScriptName3.Text.." Only Works On Unanchored Parts.",5)
 end)
 
 ScriptButton4.MouseButton1Down:connect(function()
