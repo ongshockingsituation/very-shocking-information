@@ -683,61 +683,28 @@ UICorner_21.Parent = Execute6
 
 -- 6 Scripts Button Functions and Names:
 
-ScriptName1.Text = "Infinite Jump"
+ScriptName1.Text = "Anti Fling"
 Execute1.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/GiA32cn6",true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/Vk7jQ9Ft'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
 
-ScriptName2.Text = "Ball"
+ScriptName2.Text = "Walk On Walls"
 Execute2.MouseButton1Down:connect(function()
-if R6() then
-loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
-loadstring(game:HttpGet(('https://pastebin.com/raw/aH9LsCgu'),true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
-elseif not R6() then
-Notification:Create("Oops: "..ScriptName2.Text.." Only Works If Your Rig Type Is R6.",5)
-end
 end)
 
-ScriptName3.Text = "Get To The Top Auto Farm"
+ScriptName3.Text = "Carts Speeder"
 Execute3.MouseButton1Down:connect(function()
-if game.PlaceId == 6902912928 then
-loadstring(game:HttpGet(('https://pastebin.com/raw/75BD30j0'),true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/sWDcnTga"))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
-else
-Notification:Create("Oops: "..ScriptName3.Text.." Only Works In Get To The Top.",5)
-end
 end)
 
-ScriptName4.Text = "99% Fail ESP"
+ScriptName4.Text = "Netless Reanimator"
 Execute4.MouseButton1Down:connect(function()
-if game.PlaceId == 7584496019 then
-loadstring(game:HttpGet(('https://pastebin.com/raw/r5BjpxR7'),true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/wWwx1KrG",true))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
-else
-Notification:Create("Oops: "..ScriptName4.Text.." Only Works In 99% Fail.",5)
-end
-end)
-
-ScriptName5.Text = "Uctron's Sword"
-Execute5.MouseButton1Down:connect(function()
-if game.PlaceId == 155615604 then
-loadstring(game:HttpGet(('https://pastebin.com/raw/UGNecs1d'),true))()
-Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
-else
-Notification:Create("Oops: "..ScriptName5.Text.." Only Works In Prison Life.",5)
-end
-end)
-
-ScriptName6.Text = "Toh But There's Lava Rising Teleport To End"
-Execute6.MouseButton1Down:connect(function()
-if game.PlaceId == 6502546031 then
-loadstring(game:HttpGet(('https://pastebin.com/raw/6UbUN5Mv'),true))()
-Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
-else
-Notification:Create("Oops: "..ScriptName6.Text.." Only Works In Toh But There's Lava Rising.",5)
-end
 end)
 
 -- Button Functions:
@@ -869,6 +836,7 @@ Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = ScriptName3.Text
 ScriptCreator.Text = "Unknown"
+Notification:Create("Notice: "..ScriptName3.Text.." Only Works On Some Cart Ride Games.",5)
 end)
 
 ScriptButton4.MouseButton1Down:connect(function()
@@ -881,6 +849,7 @@ Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = ScriptName4.Text
 ScriptCreator.Text = "Unknown"
+Notification:Create("Notice: "..ScriptName4.Text.." Is Buggy And May Not Work.",5)
 end)
 
 ScriptButton5.MouseButton1Down:connect(function()
