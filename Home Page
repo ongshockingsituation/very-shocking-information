@@ -1,7 +1,7 @@
 -- (VOID) : Gui to Lua
 -- Version: 1.4
 
--- Gui Instances:
+-- Instances:
 
 local MainFrame = Instance.new("Frame")
 local BarFrame = Instance.new("Frame")
@@ -594,3 +594,20 @@ local function UCUAUID_fake_script() -- ProfilePicture.LocalScript
 	imageLabel.Image = content
 end
 coroutine.wrap(UCUAUID_fake_script)()
+
+if game:GetService("CoreGui").VHubCoreScreen.DarkMode.Visible == true then
+BarFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TabsFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayerFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PlayerConfiguration.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GameInformation.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+UpdatesFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OtherStuff.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextSupporter.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Gravity.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+JumpPower.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Leaf.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+PersonRunning.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+PersonJumping.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+end
