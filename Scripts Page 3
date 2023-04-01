@@ -899,7 +899,6 @@ Execute5.Visible = false
 Execute6.Visible = true
 ScriptName.Text = ScriptName6.Text
 ScriptCreator.Text = "Unknown"
-Notification:Create("Notice: "..ScriptName3.Text.." Only Works On Some Tools.",5)
 end)
 
 NextPage.MouseButton1Down:connect(function()
