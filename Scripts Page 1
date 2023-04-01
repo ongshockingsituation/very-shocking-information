@@ -954,3 +954,19 @@ ScriptButton6.MouseButton1Down:connect(function()
 Notification:Create("Script: This Script Is Coming Soon Or Never.",5)
 end)
 end
+
+if game:GetService("CoreGui").VHubCoreScreen.DarkMode.Visible == true then
+BarFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TabsFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TabDescription.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScriptDescription.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScriptButton1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScriptButton2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScriptButton3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScriptButton4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScriptButton5.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScriptButton6.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+NextPage.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+PreviousPage.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+end
