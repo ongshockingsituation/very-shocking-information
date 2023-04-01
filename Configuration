@@ -2,6 +2,7 @@ local VHubCLogo = Instance.new("ImageLabel")
 local CVersion = Instance.new("TextLabel")
 local ChangeKey = Instance.new("TextLabel")
 local Updates = Instance.new("TextLabel")
+local DarkMode = Instance.new("TextLabel")
 
 VHubCLogo.Name = "VHubCLogo"
 VHubCLogo.Parent = game:GetService("CoreGui").VHubCoreScreen
@@ -44,3 +45,15 @@ Updates.Font = Enum.Font.Gotham
 Updates.Text = "[+] New UI"
 Updates.Visible = false
 Updates.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+DarkMode.Name = "DarkMode"
+DarkMode.Parent = game:GetService("CoreGui").VHubCoreScreen
+DarkMode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DarkMode.BackgroundTransparency = 1.000
+DarkMode.Position = UDim2.new(0, 0, 0, 0)
+DarkMode.Size = UDim2.new(0, 0, 0, 0)
+DarkMode.Font = Enum.Font.Gotham
+DarkMode.BorderSizePixel = 0
+DarkMode.Text = ""
+DarkMode.Visible = false
+DarkMode.TextColor3 = Color3.fromRGB(255, 255, 255)
