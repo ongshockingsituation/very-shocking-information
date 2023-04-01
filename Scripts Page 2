@@ -111,7 +111,7 @@ MainFrame.Visible = false
 
 BarFrame.Name = "BarFrame"
 BarFrame.Parent = MainFrame
-BarFrame.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+BarFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 BarFrame.Size = UDim2.new(0, 460, 0, 30)
 
 VHubLogo.Name = "VHubLogo"
@@ -168,7 +168,7 @@ Settings.Image = "http://www.roblox.com/asset/?id=11592827868"
 
 TabsFrame.Name = "TabsFrame"
 TabsFrame.Parent = MainFrame
-TabsFrame.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+TabsFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TabsFrame.Position = UDim2.new(0.00999999978, 0, 0.128000006, 0)
 TabsFrame.Size = UDim2.new(0, 40, 0, 221)
 
@@ -230,7 +230,7 @@ OtherHubsTab.Image = "http://www.roblox.com/asset/?id=11592850267"
 
 TabDescription.Name = "TabDescription"
 TabDescription.Parent = MainFrame
-TabDescription.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+TabDescription.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TabDescription.Position = UDim2.new(0.108039208, 0, 0.128000006, 0)
 TabDescription.Size = UDim2.new(0, 403, 0, 35)
 
@@ -238,7 +238,7 @@ UICorner_4.Parent = TabDescription
 
 PreviousPage.Name = "PreviousPage"
 PreviousPage.Parent = TabDescription
-PreviousPage.BackgroundColor3 = Color3.fromRGB(31, 32, 34)
+PreviousPage.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 PreviousPage.Position = UDim2.new(0.822779119, 0, 0.0571428575, 0)
 PreviousPage.Size = UDim2.new(0, 30, 0, 30)
 PreviousPage.Font = Enum.Font.GothamBold
@@ -271,7 +271,7 @@ TabNameAndPage.TextXAlignment = Enum.TextXAlignment.Left
 
 NextPage.Name = "NextPage"
 NextPage.Parent = TabDescription
-NextPage.BackgroundColor3 = Color3.fromRGB(31, 32, 34)
+NextPage.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 NextPage.Position = UDim2.new(0.907146394, 0, 0.0571428575, 0)
 NextPage.Size = UDim2.new(0, 30, 0, 30)
 NextPage.Font = Enum.Font.GothamBold
@@ -284,7 +284,7 @@ UICorner_6.Parent = NextPage
 
 Scripts.Name = "Scripts"
 Scripts.Parent = MainFrame
-Scripts.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+Scripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Scripts.Position = UDim2.new(0.111111112, 0, 0.290697664, 0)
 Scripts.Size = UDim2.new(0, 248, 0, 173)
 
@@ -292,7 +292,7 @@ UICorner_7.Parent = Scripts
 
 ScriptButton1.Name = "ScriptButton1"
 ScriptButton1.Parent = Scripts
-ScriptButton1.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+ScriptButton1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 ScriptButton1.Position = UDim2.new(0.0480000004, 0, 0.0270000007, 0)
 ScriptButton1.Size = UDim2.new(0, 70, 0, 80)
 ScriptButton1.Font = Enum.Font.SourceSans
@@ -335,7 +335,7 @@ ClickToPickText.TextWrapped = true
 
 ScriptButton2.Name = "ScriptButton2"
 ScriptButton2.Parent = Scripts
-ScriptButton2.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+ScriptButton2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 ScriptButton2.Position = UDim2.new(0.35800001, 0, 0.0270000007, 0)
 ScriptButton2.Size = UDim2.new(0, 70, 0, 80)
 ScriptButton2.Font = Enum.Font.SourceSans
@@ -378,7 +378,7 @@ ClickToPickText_2.TextWrapped = true
 
 ScriptButton3.Name = "ScriptButton3"
 ScriptButton3.Parent = Scripts
-ScriptButton3.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+ScriptButton3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 ScriptButton3.Position = UDim2.new(0.665000021, 0, 0.0270000007, 0)
 ScriptButton3.Size = UDim2.new(0, 70, 0, 80)
 ScriptButton3.Font = Enum.Font.SourceSans
@@ -421,7 +421,7 @@ ClickToPickText_3.TextWrapped = true
 
 ScriptButton4.Name = "ScriptButton4"
 ScriptButton4.Parent = Scripts
-ScriptButton4.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+ScriptButton4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 ScriptButton4.Position = UDim2.new(0.0480000004, 0, 0.507000029, 0)
 ScriptButton4.Size = UDim2.new(0, 70, 0, 80)
 ScriptButton4.Font = Enum.Font.SourceSans
@@ -464,7 +464,7 @@ ClickToPickText_4.TextWrapped = true
 
 ScriptButton5.Name = "ScriptButton5"
 ScriptButton5.Parent = Scripts
-ScriptButton5.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+ScriptButton5.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 ScriptButton5.Position = UDim2.new(0.358483881, 0, 0.507000029, 0)
 ScriptButton5.Size = UDim2.new(0, 70, 0, 80)
 ScriptButton5.Font = Enum.Font.SourceSans
@@ -507,7 +507,7 @@ ClickToPickText_5.TextWrapped = true
 
 ScriptButton6.Name = "ScriptButton6"
 ScriptButton6.Parent = Scripts
-ScriptButton6.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+ScriptButton6.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 ScriptButton6.Position = UDim2.new(0.66493547, 0, 0.507000029, 0)
 ScriptButton6.Size = UDim2.new(0, 70, 0, 80)
 ScriptButton6.Font = Enum.Font.SourceSans
@@ -550,7 +550,7 @@ ClickToPickText_6.TextWrapped = true
 
 ScriptDescription.Name = "ScriptDescription"
 ScriptDescription.Parent = MainFrame
-ScriptDescription.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+ScriptDescription.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ScriptDescription.Position = UDim2.new(0.665773332, 0, 0.290790707, 0)
 ScriptDescription.Size = UDim2.new(0, 146, 0, 173)
 
