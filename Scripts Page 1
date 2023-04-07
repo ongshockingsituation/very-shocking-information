@@ -902,7 +902,7 @@ Notification:Create("Notice: "..ScriptName6.Text.." Only Works On Some Games.",5
 end)
 
 NextPage.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame["Scripts"..NPage].Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame[NameTab..""..NPage].Visible = true
 MainFrame.Visible = false
 Execute.Visible = true
 Execute1.Visible = false
@@ -916,7 +916,7 @@ ScriptCreator.Text = "Veinc#0001"
 end)
 
 PreviousPage.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame["Scripts"..PPage].Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame[NameTab..""..PPage].Visible = true
 MainFrame.Visible = false
 Execute.Visible = true
 Execute1.Visible = false
