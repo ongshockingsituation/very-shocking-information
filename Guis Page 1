@@ -683,28 +683,49 @@ UICorner_21.Parent = Execute6
 
 -- 6 Scripts Button Functions and Names:
 
-ScriptName1.Text = "Anti Fling"
+ScriptName1.Text = "Kill Gui"
 Execute1.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/Vk7jQ9Ft'),true))()
+if R6() then
+loadstring(game:HttpGet(('https://pastebin.com/raw/uVHSXV6m'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
+elseif not R6() then 
+Notification:Create("Oops: "..ScriptName1.Text.." Only Works If Your Rig Type Is R6.",5)
+end
 end)
 
-ScriptName2.Text = "Walk On Walls"
+ScriptName2.Text = "Arosia"
 Execute2.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+loadstring(Game:GetObjects("rbxassetid://1255908305")[1].Source)()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 end)
 
-ScriptName3.Text = "Carts Speeder"
+ScriptName3.Text = "Fly Gui"
 Execute3.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/sWDcnTga"))()
+if game.PlaceId == 2788229376 then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Scripts/main/Fly%20Gui%20For%20Da%20Hood'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."! (Da Hood)",5)
+else
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Fly%20gui'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
+end
 end)
 
-ScriptName4.Text = "Netless Reanimator"
+ScriptName4.Text = "Yeet Gui"
 Execute4.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/wWwx1KrG",true))()
+loadstring(game:HttpGet(('https://pastebin.com/raw/LMQgxmhe'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
+end)
+
+ScriptName5.Text = "Hypertotal"
+Execute5.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/nucL1nkC'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
+end)
+
+ScriptName6.Text = "Warior Roberr Gui"
+Execute6.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/tK9Wb2zD'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 end)
 
 -- Button Functions:
@@ -812,6 +833,7 @@ Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = ScriptName1.Text
 ScriptCreator.Text = "Unknown"
+Notification:Create("Notice: "..ScriptName1.Text.." Only Works If You Have A Gear And Player Must Have Collisions.",5)
 end)
 
 ScriptButton2.MouseButton1Down:connect(function()
