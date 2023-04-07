@@ -318,7 +318,7 @@ ScriptName1.TextYAlignment = Enum.TextYAlignment.Top
 ImageLabel.Parent = ScriptButton1
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
-ImageLabel.Position = UDim2.new(0.350000024, 0, 0, 0)
+ImageLabel.Position = UDim2.new(0, 26, 0, 0)
 ImageLabel.Size = UDim2.new(0, 18, 0, 18)
 ImageLabel.Image = SIcon
 
@@ -361,7 +361,7 @@ ScriptName2.TextYAlignment = Enum.TextYAlignment.Top
 ImageLabel_2.Parent = ScriptButton2
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_2.BackgroundTransparency = 1.000
-ImageLabel_2.Position = UDim2.new(0.350000024, 0, 0, 0)
+ImageLabel_2.Position = UDim2.new(0, 26, 0, 0)
 ImageLabel_2.Size = UDim2.new(0, 18, 0, 18)
 ImageLabel_2.Image = SIcon
 
@@ -404,7 +404,7 @@ ScriptName3.TextYAlignment = Enum.TextYAlignment.Top
 ImageLabel_3.Parent = ScriptButton3
 ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_3.BackgroundTransparency = 1.000
-ImageLabel_3.Position = UDim2.new(0.350000024, 0, 0, 0)
+ImageLabel_3.Position = UDim2.new(0, 26, 0, 0)
 ImageLabel_3.Size = UDim2.new(0, 18, 0, 18)
 ImageLabel_3.Image = SIcon
 
@@ -447,7 +447,7 @@ ScriptName4.TextYAlignment = Enum.TextYAlignment.Top
 ImageLabel_4.Parent = ScriptButton4
 ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_4.BackgroundTransparency = 1.000
-ImageLabel_4.Position = UDim2.new(0.350000024, 0, 0, 0)
+ImageLabel_4.Position = UDim2.new(0, 26, 0, 0)
 ImageLabel_4.Size = UDim2.new(0, 18, 0, 18)
 ImageLabel_4.Image = SIcon
 
@@ -490,7 +490,7 @@ ScriptName5.TextYAlignment = Enum.TextYAlignment.Top
 ImageLabel_5.Parent = ScriptButton5
 ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_5.BackgroundTransparency = 1.000
-ImageLabel_5.Position = UDim2.new(0.350000024, 0, 0, 0)
+ImageLabel_5.Position = UDim2.new(0, 26, 0, 0)
 ImageLabel_5.Size = UDim2.new(0, 18, 0, 18)
 ImageLabel_5.Image = SIcon
 
@@ -533,7 +533,7 @@ ScriptName6.TextYAlignment = Enum.TextYAlignment.Top
 ImageLabel_6.Parent = ScriptButton6
 ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_6.BackgroundTransparency = 1.000
-ImageLabel_6.Position = UDim2.new(0.350000024, 0, 0, 0)
+ImageLabel_6.Position = UDim2.new(0, 26, 0, 0)
 ImageLabel_6.Size = UDim2.new(0, 18, 0, 18)
 ImageLabel_6.Image = SIcon
 
