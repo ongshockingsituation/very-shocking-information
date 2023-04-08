@@ -707,6 +707,26 @@ loadstring(game:HttpGet("https://pastebin.com/raw/wWwx1KrG",true))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 end)
 
+ScriptName5.Text = "Rob A ATM"
+Execute5.MouseButton1Down:connect(function()
+if game.PlaceId == 2788229376 then
+loadstring(game:HttpGet("https://pastebin.com/raw/h1yHHMs6",true))()
+Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName5.Text.." Only Works In Da Hood.",5)
+end
+end)
+
+ScriptName6.Text = "Strongest Punch Simulator Auto Farm"
+Execute6.MouseButton1Down:connect(function()
+if game.PlaceId == 6875469709 then
+loadstring(game:HttpGet('https://pastebin.com/raw/9fhssXQd'))()
+Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName6.Text.." Only Works In Strongest Punch Simulator.",5)
+end
+end)
+
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
