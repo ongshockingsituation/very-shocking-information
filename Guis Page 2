@@ -691,7 +691,7 @@ end)
 
 ScriptName2.Text = "Tower Of Hell OnWin"
 Execute2.MouseButton1Down:connect(function()
-if game.PlaceId == 1962086868 or 7227293156 then
+if game.PlaceId == 1962086868 then
 loadstring(game:HttpGet(('https://pastebin.com/raw/zphaw4sM'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 else
