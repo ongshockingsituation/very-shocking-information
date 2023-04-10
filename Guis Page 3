@@ -689,6 +689,36 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/61VhedB4'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
 
+ScriptName2.Text = "Teleport Gui"
+Execute2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
+end)
+
+ScriptName3.Text = "OPFinality"
+Execute3.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/U290qDC2'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
+end)
+
+ScriptName4.Text = "Vehicle Fly"
+Execute4.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/qgEYL5UB"))()
+Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
+end)
+
+ScriptName5.Text = "Fling Gui V2"
+Execute5.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ghkJuFc4'))()
+Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
+end)
+
+ScriptName6.Text = "Unanchored Parts Gui"
+Execute6.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zFYvRqXL"))()
+Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
+end)
+
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
