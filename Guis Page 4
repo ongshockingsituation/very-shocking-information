@@ -689,6 +689,44 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/9CK0qSgn'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
 
+ScriptName2.Text = "Invisible Car Toggle Gui"
+Execute2.MouseButton1Down:connect(function()
+if R6() then
+loadstring(game:HttpGet(('https://pastebin.com/raw/XL50E7g4'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
+elseif not R6() then
+Notification:Create("Oops: "..ScriptName2.Text.." Only Works If Your Rig Type Is R6.",5)
+end
+end)
+
+ScriptName3.Text = "Arceus X Aimbot"
+Execute3.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20Aimbot.lua"))()
+Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
+end)
+
+ScriptName4.Text = "Peterating Underground"
+Execute4.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/QKbzxzSj'))()
+Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
+end)
+
+ScriptName5.Text = "Keyboard Keybinds"
+Execute5.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
+end)
+
+ScriptName6.Text = "Break In Gui"
+Execute6.MouseButton1Down:connect(function()
+if game.PlaceId == 3851622790 or game.PlaceId == 4620170611 then
+loadstring(game:HttpGet("https://pastebin.com/raw/Wg8pEW3Z", true))()
+Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName6.Text.." Only Works In Break In.",5)
+end
+end)
+
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
