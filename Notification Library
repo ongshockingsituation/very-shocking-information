@@ -11,7 +11,7 @@ local TweenService = game:GetService("TweenService")
 local time = 1
 
 local Disappear = TweenService:Create(a.Notification, TweenInfo.new(time), {Transparency = 1})
-local Appear = TweenService:Create(a.Notification, TweenInfo.new(time), {Transparency = 0})
+local Appear = TweenService:Create(a.Notification, TweenInfo.new(time), {Transparency = 0.2})
 
 a.Notification.Name = "Notification"
 a.Notification.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen
