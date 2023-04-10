@@ -10,13 +10,20 @@ UICorner = Instance.new("UICorner")
 local TweenService = game:GetService("TweenService")
 local time = 1
 
-local Disappear = TweenService:Create(a.Notification, TweenInfo.new(time), {Transparency = 1})
-local Appear = TweenService:Create(a.Notification, TweenInfo.new(time), {Transparency = 0.2})
+local Disappear = {
+TweenService:Create(a.Notification, TweenInfo.new(time), {TextTransparency = 1})
+TweenService:Create(a.Notification, TweenInfo.new(time), {BackgroundTransparency = 1})
+}
+
+local Appear = {
+TweenService:Create(a.Notification, TweenInfo.new(time), {TextTransparency = 0})
+TweenService:Create(a.Notification, TweenInfo.new(time), {BackgroundTransparency = 0.2})
+}
 
 a.Notification.Name = "Notification"
 a.Notification.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen
 a.Notification.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-a.Notification.BackgroundTransparency = 0
+a.Notification.BackgroundTransparency = 1
 a.Notification.Position = UDim2.new(0.1, 0, 0.75, 0)
 a.Notification.Size = UDim2.new(0.8, 0, 0.05, 0)
 a.Notification.Font = Enum.Font.GothamMedium
@@ -25,9 +32,8 @@ a.Notification.TextColor3 = Color3.fromRGB(255, 255, 255)
 a.Notification.TextScaled = false
 a.Notification.TextSize = 14.000
 a.Notification.TextWrapped = true
-a.Notification.TextTransparency = 0
+a.Notification.TextTransparency = 1
 a.Notification.TextStrokeTransparency = 1
-a.Notification.Transparency = 1
 a.Notification.Active = true
 a.Notification.MouseButton1Down:connect(function()
 Disappear:Play()
