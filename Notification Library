@@ -11,12 +11,12 @@ local TweenService = game:GetService("TweenService")
 local time = 1
 
 local Disappear = {
-TweenService:Create(a.Notification, TweenInfo.new(time), {TextTransparency = 1}),
+TweenService:Create(a.Notification, TweenInfo.new(time), {TextTransparency = 1})
 TweenService:Create(a.Notification, TweenInfo.new(time), {BackgroundTransparency = 1})
 }
 
 local Appear = {
-TweenService:Create(a.Notification, TweenInfo.new(time), {TextTransparency = 0}),
+TweenService:Create(a.Notification, TweenInfo.new(time), {TextTransparency = 0})
 TweenService:Create(a.Notification, TweenInfo.new(time), {BackgroundTransparency = 0.2})
 }
 
