@@ -2,13 +2,19 @@ local Library = {}
 
 function Library:Create(Content, Duration)
 
-	local a = {
+    local a = {
 Notification = Instance.new("TextButton"),
 UICorner = Instance.new("UICorner")
-	} 
+    } 
 
 local TweenService = game:GetService("TweenService")
 local time = 1
+
+function TweenTable(Tab)
+  for _, Tween in pairs(Tab) do
+    Tween:Play()
+  end
+end
 
 local Disappear = {
 TweenService:Create(a.Notification, TweenInfo.new(time), {TextTransparency = 1}),
@@ -36,7 +42,7 @@ a.Notification.TextTransparency = 1
 a.Notification.TextStrokeTransparency = 1
 a.Notification.Active = true
 a.Notification.MouseButton1Down:connect(function()
-Disappear:Play()
+TweenTable(Disappear)
 wait(1)
 a.Notification:Destroy()
 end)
@@ -44,14 +50,18 @@ end)
 a.UICorner.Parent = a.Notification
 
 
-	Appear:Play()
+    TweenTable(Appear)
 
-	task.spawn(function() 
-		wait(Duration)
-		Disappear:Play()
-		wait(1)
-		a.Notification:Destroy()
-	end)
+    task.spawn(function() 
+        wait(Duration)
+        local Disappear = {
+TweenService:Create(a.Notification, TweenInfo.new(time), {TextTransparency = 1}),
+TweenService:Create(a.Notification, TweenInfo.new(time), {BackgroundTransparency = 1}),
+}
+        TweenTable(Disappear)
+        wait(1)
+        a.Notification:Destroy()
+    end)
 end
 
 return Library
