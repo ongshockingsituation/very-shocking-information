@@ -1,7 +1,6 @@
 local ButtonParent = Instance.new("Frame")
 local VHubLogoOpen = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
-local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
 
 ButtonParent.Name = "ButtonParent"
 ButtonParent.Parent = game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame
@@ -17,7 +16,7 @@ VHubLogoOpen.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 VHubLogoOpen.BackgroundTransparency = 0.5
 VHubLogoOpen.Position = UDim2.new(0, 0, 0.12, 0)
 VHubLogoOpen.Size = UDim2.new(0, 32, 0, 32)
-VHubLogoOpen.Image = logo
+VHubLogoOpen.Image = "rbxassetid://12193689334"
 VHubLogoOpen.ImageTransparency = 0
 VHubLogoOpen.MouseButton1Down:connect(function()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
