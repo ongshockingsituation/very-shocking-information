@@ -725,8 +725,8 @@ ScriptName.Text = "Pick A Script."
 ScriptCreator.Text = Owner
 end)
 
-ScriptsTab.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Scripts1.Visible = true
+RequiredAccessoriesTab.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame["Required Accessories1"].Visible = true
 MainFrame.Visible = false
 Execute.Visible = true
 Execute1.Visible = false
@@ -739,8 +739,8 @@ ScriptName.Text = "Pick A Script."
 ScriptCreator.Text = Owner
 end)
 
-RequiredAccessoriesTab.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame["Required Accessories1"].Visible = true
+GuisTab.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Guis1.Visible = true
 MainFrame.Visible = false
 Execute.Visible = true
 Execute1.Visible = false
