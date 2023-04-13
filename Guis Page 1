@@ -85,6 +85,7 @@ local UICorner_21 = Instance.new("UICorner")
 
 local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
 local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
+local Owner = game:GetService("CoreGui").VHubCoreScreen.Owner.Text
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 local NameTab = "Guis"
 local PPage = 0
@@ -589,7 +590,7 @@ ScriptCreator.BackgroundTransparency = 1.000
 ScriptCreator.Position = UDim2.new(0.15000017, 0, 0.789999962, 0)
 ScriptCreator.Size = UDim2.new(0, 118, 0, 10)
 ScriptCreator.Font = Enum.Font.GothamMedium
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text =  Owner
 ScriptCreator.TextColor3 = Color3.fromRGB(255, 255, 255)
 ScriptCreator.TextSize = 10.000
 ScriptCreator.TextWrapped = true
@@ -750,7 +751,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 ScriptsTab.MouseButton1Down:connect(function()
@@ -764,7 +765,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 RequiredAccessoriesTab.MouseButton1Down:connect(function()
@@ -778,7 +779,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 AnimationsTab.MouseButton1Down:connect(function()
@@ -792,7 +793,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 CommandsTab.MouseButton1Down:connect(function()
@@ -806,7 +807,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 OtherHubsTab.MouseButton1Down:connect(function()
@@ -820,7 +821,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 ScriptButton1.MouseButton1Down:connect(function()
@@ -907,7 +908,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 PreviousPage.MouseButton1Down:connect(function()
@@ -921,7 +922,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 if ScriptName1.Text == "Coming Soon" then
@@ -965,4 +966,3 @@ ScriptButton6.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 NextPage.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 PreviousPage.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 end
-
