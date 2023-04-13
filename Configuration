@@ -3,6 +3,7 @@ local CVersion = Instance.new("TextLabel")
 local ChangeKey = Instance.new("TextLabel")
 local Updates = Instance.new("TextLabel")
 local DarkMode = Instance.new("TextLabel")
+local Owner = Instance.new("TextLabel")
 
 VHubCLogo.Name = "VHubCLogo"
 VHubCLogo.Parent = game:GetService("CoreGui").VHubCoreScreen
@@ -57,3 +58,14 @@ DarkMode.BorderSizePixel = 0
 DarkMode.Text = ""
 DarkMode.Visible = false
 DarkMode.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Owner.Name = "Owner"
+Owner.Parent = game:GetService("CoreGui").VHubCoreScreen
+Owner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Owner.BackgroundTransparency = 1.000
+Owner.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
+Owner.Size = UDim2.new(0, 90, 0, 6)
+Owner.Font = Enum.Font.Gotham
+Owner.Text = "Veinc#2642"
+Owner.Visible = false
+Owner.TextColor3 = Color3.fromRGB(255, 255, 255)
