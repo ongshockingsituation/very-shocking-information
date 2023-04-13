@@ -10,7 +10,7 @@ VHubCLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubCLogo.BackgroundTransparency = 1.000
 VHubCLogo.Position = UDim2.new(0.00499999989, 0, -0.00999999978, 0)
 VHubCLogo.Size = UDim2.new(0, 30, 0, 30)
-VHubCLogo.Image = "rbxassetid://12951394213"
+VHubCLogo.Image = "rbxassetid://12193614978"
 VHubCLogo.Visible = false
 
 CVersion.Name = "CVersion"
