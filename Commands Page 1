@@ -85,6 +85,7 @@ local UICorner_21 = Instance.new("UICorner")
 
 local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
 local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
+local Owner = game:GetService("CoreGui").VHubCoreScreen.Owner.Text
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 local NameTab = "Commands"
 local PPage = 0
@@ -745,7 +746,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 RequiredAccessoriesTab.MouseButton1Down:connect(function()
@@ -759,7 +760,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 GuisTab.MouseButton1Down:connect(function()
@@ -773,7 +774,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 AnimationsTab.MouseButton1Down:connect(function()
@@ -787,7 +788,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 CommandsTab.MouseButton1Down:connect(function()
@@ -801,7 +802,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 OtherHubsTab.MouseButton1Down:connect(function()
@@ -815,7 +816,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 ScriptButton1.MouseButton1Down:connect(function()
@@ -902,7 +903,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 PreviousPage.MouseButton1Down:connect(function()
@@ -916,7 +917,7 @@ Execute4.Visible = false
 Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = "Pick A Script."
-ScriptCreator.Text = "Veinc#0001"
+ScriptCreator.Text = Owner
 end)
 
 if ScriptName1.Text == "Coming Soon" then
