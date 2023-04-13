@@ -85,6 +85,7 @@ local UICorner_21 = Instance.new("UICorner")
 
 local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
 local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
+local Owner = game:GetService("CoreGui").VHubCoreScreen.Owner.Text
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 local NameTab = "Guis"
 local PPage = 1
