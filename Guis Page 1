@@ -731,7 +731,7 @@ end)
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.OpenButton.Visible = true
+game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ButtonParent.Visible = true
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
 end)
 
@@ -965,3 +965,4 @@ ScriptButton6.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 NextPage.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 PreviousPage.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 end
+
