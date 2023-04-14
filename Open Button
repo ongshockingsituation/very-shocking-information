@@ -22,7 +22,11 @@ VHubLogoOpen.Image = "rbxassetid://12193689334"
 VHubLogoOpen.ImageTransparency = 0
 VHubLogoOpen.Active = true 
 VHubLogoOpen.MouseButton1Down:connect(function()
+if game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible == true then
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
+else
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = true
+end
 end)
 
 UICorner.Parent = VHubLogoOpen
