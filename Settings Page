@@ -22,6 +22,9 @@ local UICorner_6 = Instance.new("UICorner")
 local CloseVHub = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 
+-- Locals:
+local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
+
 --Properties:
 
 MainFrame.Name = "Settings"
@@ -44,7 +47,7 @@ VHubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubLogo.BackgroundTransparency = 1.000
 VHubLogo.Position = UDim2.new(0.00499999989, 0, -0.00999999978, 0)
 VHubLogo.Size = UDim2.new(0, 30, 0, 30)
-VHubLogo.Image = "rbxassetid://12193614978"
+VHubLogo.Image = logo
 
 TabName.Name = "TabName"
 TabName.Parent = BarFrame
@@ -64,7 +67,7 @@ Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Close.BackgroundTransparency = 1.000
 Close.Position = UDim2.new(0.881506801, 0, -2.60770321e-08, 0)
 Close.Size = UDim2.new(0, 30, 0, 30)
-Close.Font = Enum.Font.Unknown
+Close.Font = Enum.Font.FredokaOne
 Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextSize = 20.000
