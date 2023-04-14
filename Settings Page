@@ -102,9 +102,7 @@ SettingsText.Size = UDim2.new(0, 200, 0, 38)
 SettingsText.Font = Enum.Font.GothamBold
 SettingsText.Text = "Settings"
 SettingsText.TextColor3 = Color3.fromRGB(255, 255, 255)
-SettingsText.TextScaled = true
-SettingsText.TextSize = 20.000
-SettingsText.TextWrapped = true
+SettingsText.TextSize = 35.000
 
 UIScaleButton.Name = "UIScaleButton"
 UIScaleButton.Parent = MainFrame
