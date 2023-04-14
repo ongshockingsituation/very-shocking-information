@@ -112,7 +112,7 @@ UIScaleButton.Size = UDim2.new(0, 54, 0, 25)
 UIScaleButton.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 UIScaleButton.ScaleType = Enum.ScaleType.Fit
 UIScaleButton.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.UIScale = UIScaleBox.Text
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.UIScale.Scale = UIScaleBox.Text
 end)
 
 UICorner_4.Parent = UIScaleButton
