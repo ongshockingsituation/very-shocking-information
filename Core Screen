@@ -1,6 +1,7 @@
 local VHubCoreScreen = Instance.new("Folder")
 local DragScreen = Instance.new("ScreenGui")
 local DragFrame = Instance.new("Frame")
+local UIScale = Instance.new("UIScale")
 local UICorner = Instance.new("UICorner")
 
 VHubCoreScreen.Name = "VHubCoreScreen"
@@ -19,5 +20,8 @@ DragFrame.BackgroundTransparency = 0.500
 DragFrame.Draggable = true
 DragFrame.Position = UDim2.new(0.196224764, 0, 0.178353652, 0)
 DragFrame.Size = UDim2.new(0, 460, 0, 258)
+
+UIScale.Parent = DragFrame
+UIScale.Scale = 1
 
 UICorner.Parent = DragFrame
