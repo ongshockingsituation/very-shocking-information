@@ -30,6 +30,8 @@ MainFrame.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
 MainFrame.Position = UDim2.new(0.327694505, 0, 0.223731726, 0)
 MainFrame.Size = UDim2.new(0, 260, 0, 240)
 MainFrame.Visible = false
+MainFrame.Active = true
+MainFrame.Draggable = true
 
 BarFrame.Name = "BarFrame"
 BarFrame.Parent = MainFrame
