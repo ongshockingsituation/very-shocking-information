@@ -86,7 +86,7 @@ UIScaleBox.Position = UDim2.new(0.0346153863, 0, 0.367209314, 0)
 UIScaleBox.Size = UDim2.new(0, 180, 0, 25)
 UIScaleBox.Font = Enum.Font.Gotham
 UIScaleBox.PlaceholderText = "UIScale"
-UIScaleBox.Text = ""
+UIScaleBox.Text = "1"
 UIScaleBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 UIScaleBox.TextSize = 20.000
 UIScaleBox.TextWrapped = true
@@ -111,6 +111,9 @@ UIScaleButton.Position = UDim2.new(0.761538446, 0, 0.367209314, 0)
 UIScaleButton.Size = UDim2.new(0, 54, 0, 25)
 UIScaleButton.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 UIScaleButton.ScaleType = Enum.ScaleType.Fit
+UIScaleButton.MouseButton1Down:connect(function()
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.UIScale = UIScaleBox.Text
+end)
 
 UICorner_4.Parent = UIScaleButton
 
