@@ -1,0 +1,24 @@
+local exploits = identifyexecutor()
+local LP = game:GetService("Players")
+
+local url =
+   "https://discord.com/api/webhooks/1052138420899696691/zecDVlxPwsemvtLCtEKUlkHckJuxsHD0WU1Pc8wAR4yDPJoxaVO_TDL6gVnUb6gqLxxx"
+local data = {
+   ["content"] = LP.LocalPlayer.Name.." Using "..exploits..": "..game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Support.SupportFrame.TextBoxFrame.TextBox.Text,
+}
+
+
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Report Sent";
+	Text = "Report Successfully Sent!";
+	Icon = "rbxthumb://type=Asset&id=11782547157&w=150&h=150"})
+Duration = 16;
