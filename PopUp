@@ -1,6 +1,8 @@
 local Library = {}
 
 function Library:Create(link1, link2, link3, link4, link5, link6, link7, link8, link9, link10, callback)
+local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 local callback = callback or function() end
 
 	local a = {
@@ -47,7 +49,7 @@ a.VHubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 a.VHubLogo.BackgroundTransparency = 1.000
 a.VHubLogo.Position = UDim2.new(0.00499999989, 0, -0.00999999978, 0)
 a.VHubLogo.Size = UDim2.new(0, 30, 0, 30)
-a.VHubLogo.Image = "rbxassetid://12193614978"
+a.VHubLogo.Image = logo
 
 a.TabName.Name = "TabName"
 a.TabName.Parent = a.BarFrame
@@ -104,6 +106,7 @@ a.Link1.TextSize = 12.000
 a.Link1.TextXAlignment = Enum.TextXAlignment.Left
 a.Link1.MouseButton1Down:connect(function()
 setclipboard(a.Link1.Text)
+Notification:Create("Copied To Clipboard!",5)
 end)
 
 a.Link2.Name = "Link2"
@@ -119,6 +122,7 @@ a.Link2.TextSize = 12.000
 a.Link2.TextXAlignment = Enum.TextXAlignment.Left
 a.Link2.MouseButton1Down:connect(function()
 setclipboard(a.Link2.Text)
+Notification:Create("Copied To Clipboard!",5)
 end)
 
 a.Link3.Name = "Link3"
@@ -134,6 +138,7 @@ a.Link3.TextSize = 12.000
 a.Link3.TextXAlignment = Enum.TextXAlignment.Left
 a.Link3.MouseButton1Down:connect(function()
 setclipboard(a.Link3.Text)
+Notification:Create("Copied To Clipboard!",5)
 end)
 
 a.Link4.Name = "Link4"
@@ -149,6 +154,7 @@ a.Link4.TextSize = 12.000
 a.Link4.TextXAlignment = Enum.TextXAlignment.Left
 a.Link4.MouseButton1Down:connect(function()
 setclipboard(a.Link4.Text)
+Notification:Create("Copied To Clipboard!",5)
 end)
 
 a.Link5.Name = "Link5"
@@ -164,6 +170,7 @@ a.Link5.TextSize = 12.000
 a.Link5.TextXAlignment = Enum.TextXAlignment.Left
 a.Link5.MouseButton1Down:connect(function()
 setclipboard(a.Link5.Text)
+Notification:Create("Copied To Clipboard!",5)
 end)
 
 a.Link6.Name = "Link6"
@@ -179,6 +186,7 @@ a.Link6.TextSize = 12.000
 a.Link6.TextXAlignment = Enum.TextXAlignment.Left
 a.Link6.MouseButton1Down:connect(function()
 setclipboard(a.Link6.Text)
+Notification:Create("Copied To Clipboard!",5)
 end)
 
 a.Link7.Name = "Link7"
@@ -194,6 +202,7 @@ a.Link7.TextSize = 12.000
 a.Link7.TextXAlignment = Enum.TextXAlignment.Left
 a.Link7.MouseButton1Down:connect(function()
 setclipboard(a.Link7.Text)
+Notification:Create("Copied To Clipboard!",5)
 end)
 
 a.Link8.Name = "Link8"
@@ -209,6 +218,7 @@ a.Link8.TextSize = 12.000
 a.Link8.TextXAlignment = Enum.TextXAlignment.Left
 a.Link8.MouseButton1Down:connect(function()
 setclipboard(a.Link8.Text)
+Notification:Create("Copied To Clipboard!",5)
 end)
 
 a.Link9.Name = "Link9"
@@ -224,6 +234,7 @@ a.Link9.TextSize = 12.000
 a.Link9.TextXAlignment = Enum.TextXAlignment.Left
 a.Link9.MouseButton1Down:connect(function()
 setclipboard(a.Link9.Text)
+Notification:Create("Copied To Clipboard!",5)
 end)
 
 a.Link10.Name = "Link10"
@@ -239,6 +250,7 @@ a.Link10.TextSize = 12.000
 a.Link10.TextXAlignment = Enum.TextXAlignment.Left
 a.Link10.MouseButton1Down:connect(function()
 setclipboard(a.Link10.Text)
+Notification:Create("Copied To Clipboard!",5)
 end)
 
 a.Execute.Name = "Execute"
