@@ -571,7 +571,6 @@ end)
 
 Flag.MouseButton1Down:connect(function()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.Support.Visible = true
-MainFrame.Visible = false
 end)
 
 -- Scripts:
@@ -611,3 +610,4 @@ Leaf.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 PersonRunning.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 PersonJumping.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 end
+
