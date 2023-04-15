@@ -1,0 +1,121 @@
+-- (VOID) : Gui to Lua
+-- Version: 1.4
+
+-- Instances:
+
+local MainFrame = Instance.new("Frame")
+local BarFrame = Instance.new("Frame")
+local VHubLogo = Instance.new("ImageLabel")
+local TabName = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local SupportText = Instance.new("TextLabel")
+local TextBoxParent = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local Send = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+
+--Locals:
+local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
+
+--Properties:
+
+MainFrame.Name = "Support"
+MainFrame.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen
+MainFrame.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+MainFrame.Position = UDim2.new(0.327694505, 0, 0.223731726, 0)
+MainFrame.Size = UDim2.new(0, 260, 0, 240)
+MainFrame.Active = true
+MainFrame.Draggable = true
+MainFrame.Visible = false
+
+BarFrame.Name = "BarFrame"
+BarFrame.Parent = MainFrame
+BarFrame.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+BarFrame.Size = UDim2.new(0, 260, 0, 30)
+
+VHubLogo.Name = "VHubLogo"
+VHubLogo.Parent = BarFrame
+VHubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubLogo.BackgroundTransparency = 1.000
+VHubLogo.Position = UDim2.new(0.00499999989, 0, -0.00999999978, 0)
+VHubLogo.Size = UDim2.new(0, 30, 0, 30)
+VHubLogo.Image = logo
+
+TabName.Name = "TabName"
+TabName.Parent = BarFrame
+TabName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabName.BackgroundTransparency = 1.000
+TabName.Position = UDim2.new(0.118994884, 0, 0, 0)
+TabName.Size = UDim2.new(0, 202, 0, 30)
+TabName.Font = Enum.Font.GothamMedium
+TabName.Text = "VHub | Support"
+TabName.TextColor3 = Color3.fromRGB(255, 255, 255)
+TabName.TextSize = 14.000
+TabName.TextXAlignment = Enum.TextXAlignment.Left
+
+Close.Name = "Close"
+Close.Parent = BarFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.881506801, 0, -2.60770321e-08, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.Font = Enum.Font.FredokaOne
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 20.000
+Close.MouseButton1Down:connect(function()
+MainFrame.Visible = false
+end)
+
+UICorner.Parent = BarFrame
+
+UICorner_2.Parent = MainFrame
+
+SupportText.Name = "SupportText"
+SupportText.Parent = MainFrame
+SupportText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SupportText.BackgroundTransparency = 1.000
+SupportText.Position = UDim2.new(0.115384616, 0, 0.151162788, 0)
+SupportText.Size = UDim2.new(0, 200, 0, 38)
+SupportText.Font = Enum.Font.GothamBold
+SupportText.Text = "Support"
+SupportText.TextColor3 = Color3.fromRGB(255, 255, 255)
+SupportText.TextSize = 35
+
+TextBoxParent.Name = "TextBoxParent"
+TextBoxParent.Parent = MainFrame
+TextBoxParent.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+TextBoxParent.Position = UDim2.new(0.0615384541, 0, 0.345833302, 0)
+TextBoxParent.Size = UDim2.new(0, 230, 0, 105)
+
+UICorner_3.Parent = TextBoxParent
+
+TextBox.Parent = TextBoxParent
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Position = UDim2.new(0.00869565085, 0, 0.0199999996, 0)
+TextBox.Size = UDim2.new(0, 225, 0, 100)
+TextBox.Font = Enum.Font.Gotham
+TextBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.PlaceholderText = "Describe The Issue That You're Facing Right Now. Anything You Typed Here Will Be Sent To The VHub Server And We Might Reply To You."
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+Send.Name = "Send"
+Send.Parent = MainFrame
+Send.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Send.Position = UDim2.new(0.0773075968, 0, 0.838701606, 0)
+Send.Size = UDim2.new(0, 225, 0, 25)
+Send.Font = Enum.Font.GothamMedium
+Send.Text = "Send"
+Send.TextColor3 = Color3.fromRGB(0, 0, 0)
+Send.TextSize = 16.000
+
+UICorner_4.Parent = Send
