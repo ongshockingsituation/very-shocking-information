@@ -19,6 +19,7 @@ local UICorner_4 = Instance.new("UICorner")
 
 --Locals:
 local logo = game:GetService("CoreGui").VHubCoreScreen.VHubCLogo.Image
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 
 --Properties:
 
@@ -117,5 +118,14 @@ Send.Font = Enum.Font.GothamMedium
 Send.Text = "Send"
 Send.TextColor3 = Color3.fromRGB(0, 0, 0)
 Send.TextSize = 16.000
+Send.MouseButton1Down:connect(function()
+if Sender_LOADED and not _G.Sender_DEBUG == true then
+Notification:Create("Oops: You Can Only Send One Message.",5)
+	return
+end
+
+pcall(function() getgenv().Sender_LOADED = true end)
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Send%20Report'),true))()
 
 UICorner_4.Parent = Send
