@@ -81,7 +81,12 @@ local UICorner_20 = Instance.new("UICorner")
 local Execute6 = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
 local UICorner_22 = Instance.new("UICorner")
-
+local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 
 -- Locals
 
@@ -191,45 +196,59 @@ UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 
 ScriptsTab.Name = "ScriptsTab"
 ScriptsTab.Parent = TabsFrame
-ScriptsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScriptsTab.BackgroundTransparency = 1.000
+ScriptsTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsTab.BackgroundTransparency = 0.5
 ScriptsTab.Size = UDim2.new(0, 30, 0, 30)
 ScriptsTab.Image = "http://www.roblox.com/asset/?id=11592851654"
 
 RequiredAccessoriesTab.Name = "RequiredAccessoriesTab"
 RequiredAccessoriesTab.Parent = TabsFrame
-RequiredAccessoriesTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-RequiredAccessoriesTab.BackgroundTransparency = 1.000
+RequiredAccessoriesTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RequiredAccessoriesTab.BackgroundTransparency = 0.5
 RequiredAccessoriesTab.Size = UDim2.new(0, 30, 0, 30)
 RequiredAccessoriesTab.Image = "http://www.roblox.com/asset/?id=11592824883"
 
 GuisTab.Name = "GuisTab"
 GuisTab.Parent = TabsFrame
-GuisTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-GuisTab.BackgroundTransparency = 1.000
+GuisTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GuisTab.BackgroundTransparency = 0.5
 GuisTab.Size = UDim2.new(0, 30, 0, 30)
 GuisTab.Image = "http://www.roblox.com/asset/?id=11592848654"
 
 AnimationsTab.Name = "AnimationsTab"
 AnimationsTab.Parent = TabsFrame
-AnimationsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-AnimationsTab.BackgroundTransparency = 1.000
+AnimationsTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AnimationsTab.BackgroundTransparency = 0.5
 AnimationsTab.Size = UDim2.new(0, 30, 0, 30)
 AnimationsTab.Image = "http://www.roblox.com/asset/?id=11592835705"
 
 CommandsTab.Name = "CommandsTab"
 CommandsTab.Parent = TabsFrame
-CommandsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CommandsTab.BackgroundTransparency = 1.000
+CommandsTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CommandsTab.BackgroundTransparency = 0.5
 CommandsTab.Size = UDim2.new(0, 30, 0, 30)
 CommandsTab.Image = "http://www.roblox.com/asset/?id=11592837927"
 
 OtherHubsTab.Name = "OtherHubsTab"
 OtherHubsTab.Parent = TabsFrame
-OtherHubsTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OtherHubsTab.BackgroundTransparency = 1.000
+OtherHubsTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OtherHubsTab.BackgroundTransparency = 0.5
 OtherHubsTab.Size = UDim2.new(0, 30, 0, 30)
 OtherHubsTab.Image = "http://www.roblox.com/asset/?id=11592850267"
+
+UICorner_22.Parent = HomeTab
+
+UICorner_23.Parent = ScriptsTab
+
+UICorner_24.Parent = RequiredAccessoriesTab
+
+UICorner_25.Parent = GuisTab
+
+UICorner_26.Parent = AnimationsTab
+
+UICorner_27.Parent = CommandsTab
+
+UICorner_28.Parent = OtherHubsTab
 
 TabDescription.Name = "TabDescription"
 TabDescription.Parent = MainFrame
@@ -683,8 +702,6 @@ Execute6.TextColor3 = Color3.fromRGB(0, 0, 0)
 Execute6.TextSize = 14.000
 
 UICorner_21.Parent = Execute6
-
-UICorner_22.Parent = HomeTab
 
 -- 6 Scripts Button Functions and Names:
 
