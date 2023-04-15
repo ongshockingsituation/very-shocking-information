@@ -1,0 +1,258 @@
+local Library = {}
+
+function Library:Create(link1, link2, link3, link4, link5, link6, link7, link8, link9, link10, callback)
+local callback = callback or function() end
+
+	local a = {
+local MainFrame = Instance.new("Frame"),
+local BarFrame = Instance.new("Frame"),
+local VHubLogo = Instance.new("ImageLabel"),
+local TabName = Instance.new("TextLabel"),
+local Close = Instance.new("TextButton"),
+local UICorner = Instance.new("UICorner"),
+local UICorner_2 = Instance.new("UICorner"),
+local AccessoriesRequiredText = Instance.new("TextLabel"),
+local Link1 = Instance.new("TextButton"),
+local Link2 = Instance.new("TextButton"),
+local Link3 = Instance.new("TextButton"),
+local Link4 = Instance.new("TextButton"),
+local Link5 = Instance.new("TextButton"),
+local Link6 = Instance.new("TextButton"),
+local Link7 = Instance.new("TextButton"),
+local Link8 = Instance.new("TextButton"),
+local Link9 = Instance.new("TextButton"),
+local Link10 = Instance.new("TextButton"),
+local Execute = Instance.new("TextButton"),
+local UICorner_3 = Instance.new("UICorner")
+}
+
+--Properties:
+
+a.MainFrame.Name = "LinkFrame"
+a.MainFrame.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen
+a.MainFrame.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+a.MainFrame.Position = UDim2.new(0.327694505, 0, 0.223731726, 0)
+a.MainFrame.Size = UDim2.new(0, 260, 0, 240)
+
+a.BarFrame.Name = "BarFrame"
+a.BarFrame.Parent = a.MainFrame
+a.BarFrame.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+a.BarFrame.Size = UDim2.new(0, 260, 0, 30)
+
+a.VHubLogo.Name = "VHubLogo"
+a.VHubLogo.Parent = a.BarFrame
+a.VHubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.VHubLogo.BackgroundTransparency = 1.000
+a.VHubLogo.Position = UDim2.new(0.00499999989, 0, -0.00999999978, 0)
+a.VHubLogo.Size = UDim2.new(0, 30, 0, 30)
+a.VHubLogo.Image = "rbxassetid://12193614978"
+
+a.TabName.Name = "TabName"
+a.TabName.Parent = a.BarFrame
+a.TabName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.TabName.BackgroundTransparency = 1.000
+a.TabName.Position = UDim2.new(0.118994884, 0, 0, 0)
+a.TabName.Size = UDim2.new(0, 202, 0, 30)
+a.TabName.Font = Enum.Font.GothamMedium
+a.TabName.Text = "VHub | Links"
+a.TabName.TextColor3 = Color3.fromRGB(255, 255, 255)
+a.TabName.TextSize = 14.000
+a.TabName.TextXAlignment = Enum.TextXAlignment.Left
+
+a.Close.Name = "Close"
+a.Close.Parent = a.BarFrame
+a.Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Close.BackgroundTransparency = 1.000
+a.Close.Position = UDim2.new(0.881506801, 0, -2.60770321e-08, 0)
+a.Close.Size = UDim2.new(0, 30, 0, 30)
+a.Close.Font = Enum.Font.FredokaOne
+a.Close.Text = "X"
+a.Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+a.Close.TextSize = 20.000
+a.Close.MouseButton1Down:connect(function()
+MainFrame:Destroy()
+end)
+
+a.UICorner.Parent = a.BarFrame
+
+a.UICorner_2.Parent = a.MainFrame
+
+a.AccessoriesRequiredText.Name = "AccessoriesRequiredText"
+a.AccessoriesRequiredText.Parent = a.MainFrame
+a.AccessoriesRequiredText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.AccessoriesRequiredText.BackgroundTransparency = 1.000
+a.AccessoriesRequiredText.Position = UDim2.new(0.0309999995, 0, 0.129999995, 0)
+a.AccessoriesRequiredText.Size = UDim2.new(0, 200, 0, 20)
+a.AccessoriesRequiredText.Font = Enum.Font.GothamBold
+a.AccessoriesRequiredText.Text = "Accessories Required:"
+a.AccessoriesRequiredText.TextColor3 = Color3.fromRGB(255, 255, 255)
+a.AccessoriesRequiredText.TextSize = 16.000
+a.AccessoriesRequiredText.TextXAlignment = Enum.TextXAlignment.Left
+
+a.Link1.Name = "Link1"
+a.Link1.Parent = a.MainFrame
+a.Link1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Link1.BackgroundTransparency = 1.000
+a.Link1.Position = UDim2.new(0.0309999995, 0, 0.223000005, 0)
+a.Link1.Size = UDim2.new(0, 200, 0, 15)
+a.Link1.Font = Enum.Font.Gotham
+a.Link1.Text = tostring(link1)
+a.Link1.TextColor3 = Color3.fromRGB(0, 85, 255)
+a.Link1.TextSize = 12.000
+a.Link1.TextXAlignment = Enum.TextXAlignment.Left
+a.Link1.MouseButton1Down:connect(function()
+setclipboard(a.Link1.Text)
+end)
+
+a.Link2.Name = "Link2"
+a.Link2.Parent = a.MainFrame
+a.Link2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Link2.BackgroundTransparency = 1.000
+a.Link2.Position = UDim2.new(0.0309999995, 0, 0.28549999, 0)
+a.Link2.Size = UDim2.new(0, 200, 0, 15)
+a.Link2.Font = Enum.Font.Gotham
+a.Link2.Text = tostring(link2)
+a.Link2.TextColor3 = Color3.fromRGB(0, 85, 255)
+a.Link2.TextSize = 12.000
+a.Link2.TextXAlignment = Enum.TextXAlignment.Left
+a.Link2.MouseButton1Down:connect(function()
+setclipboard(a.Link2.Text)
+end)
+
+a.Link3.Name = "Link3"
+a.Link3.Parent = a.MainFrame
+a.Link3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Link3.BackgroundTransparency = 1.000
+a.Link3.Position = UDim2.new(0.0309999995, 0, 0.34799999, 0)
+a.Link3.Size = UDim2.new(0, 200, 0, 15)
+a.Link3.Font = Enum.Font.Gotham
+a.Link3.Text = tostring(link3)
+a.Link3.TextColor3 = Color3.fromRGB(0, 85, 255)
+a.Link3.TextSize = 12.000
+a.Link3.TextXAlignment = Enum.TextXAlignment.Left
+a.Link3.MouseButton1Down:connect(function()
+setclipboard(a.Link3.Text)
+end)
+
+a.Link4.Name = "Link4"
+a.Link4.Parent = a.MainFrame
+a.Link4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Link4.BackgroundTransparency = 1.000
+a.Link4.Position = UDim2.new(0.0309999995, 0, 0.41049999, 0)
+a.Link4.Size = UDim2.new(0, 200, 0, 15)
+a.Link4.Font = Enum.Font.Gotham
+a.Link4.Text = tostring(link4)
+a.Link4.TextColor3 = Color3.fromRGB(0, 85, 255)
+a.Link4.TextSize = 12.000
+a.Link4.TextXAlignment = Enum.TextXAlignment.Left
+a.Link4.MouseButton1Down:connect(function()
+setclipboard(a.Link4.Text)
+end)
+
+a.Link5.Name = "Link5"
+a.Link5.Parent = a.MainFrame
+a.Link5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Link5.BackgroundTransparency = 1.000
+a.Link5.Position = UDim2.new(0.0309999995, 0, 0.47299999, 0)
+a.Link5.Size = UDim2.new(0, 200, 0, 15)
+a.Link5.Font = Enum.Font.Gotham
+a.Link5.Text = tostring(link5)
+a.Link5.TextColor3 = Color3.fromRGB(0, 85, 255)
+a.Link5.TextSize = 12.000
+a.Link5.TextXAlignment = Enum.TextXAlignment.Left
+a.Link5.MouseButton1Down:connect(function()
+setclipboard(a.Link5.Text)
+end)
+
+a.Link6.Name = "Link6"
+a.Link6.Parent = a.MainFrame
+a.Link6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Link6.BackgroundTransparency = 1.000
+a.Link6.Position = UDim2.new(0.0309999995, 0, 0.53549999, 0)
+a.Link6.Size = UDim2.new(0, 200, 0, 15)
+a.Link6.Font = Enum.Font.Gotham
+a.Link6.Text = tostring(link6)
+a.Link6.TextColor3 = Color3.fromRGB(0, 85, 255)
+a.Link6.TextSize = 12.000
+a.Link6.TextXAlignment = Enum.TextXAlignment.Left
+a.Link6.MouseButton1Down:connect(function()
+setclipboard(a.Link6.Text)
+end)
+
+a.Link7.Name = "Link7"
+a.Link7.Parent = a.MainFrame
+a.Link7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Link7.BackgroundTransparency = 1.000
+a.Link7.Position = UDim2.new(0.0309999995, 0, 0.59799999, 0)
+a.Link7.Size = UDim2.new(0, 200, 0, 15)
+a.Link7.Font = Enum.Font.Gotham
+a.Link7.Text = tostring(link7)
+a.Link7.TextColor3 = Color3.fromRGB(0, 85, 255)
+a.Link7.TextSize = 12.000
+a.Link7.TextXAlignment = Enum.TextXAlignment.Left
+a.Link7.MouseButton1Down:connect(function()
+setclipboard(a.Link7.Text)
+end)
+
+a.Link8.Name = "Link8"
+a.Link8.Parent = a.MainFrame
+a.Link8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Link8.BackgroundTransparency = 1.000
+a.Link8.Position = UDim2.new(0.0309999995, 0, 0.66049999, 0)
+a.Link8.Size = UDim2.new(0, 200, 0, 15)
+a.Link8.Font = Enum.Font.Gotham
+a.Link8.Text = tostring(link8)
+a.Link8.TextColor3 = Color3.fromRGB(0, 85, 255)
+a.Link8.TextSize = 12.000
+a.Link8.TextXAlignment = Enum.TextXAlignment.Left
+a.Link8.MouseButton1Down:connect(function()
+setclipboard(a.Link8.Text)
+end)
+
+a.Link9.Name = "Link9"
+a.Link9.Parent = a.MainFrame
+a.Link9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Link9.BackgroundTransparency = 1.000
+a.Link9.Position = UDim2.new(0.0309999995, 0, 0.72299999, 0)
+a.Link9.Size = UDim2.new(0, 200, 0, 15)
+a.Link9.Font = Enum.Font.Gotham
+a.Link9.Text = tostring(link9)
+a.Link9.TextColor3 = Color3.fromRGB(0, 85, 255)
+a.Link9.TextSize = 12.000
+a.Link9.TextXAlignment = Enum.TextXAlignment.Left
+a.Link9.MouseButton1Down:connect(function()
+setclipboard(a.Link9.Text)
+end)
+
+a.Link10.Name = "Link10"
+a.Link10.Parent = a.MainFrame
+a.Link10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Link10.BackgroundTransparency = 1.000
+a.Link10.Position = UDim2.new(0.0309999995, 0, 0.78549999, 0)
+a.Link10.Size = UDim2.new(0, 200, 0, 15)
+a.Link10.Font = Enum.Font.Gotham
+a.Link10.Text = tostring(link10)
+a.Link10.TextColor3 = Color3.fromRGB(0, 85, 255)
+a.Link10.TextSize = 12.000
+a.Link10.TextXAlignment = Enum.TextXAlignment.Left
+a.Link10.MouseButton1Down:connect(function()
+setclipboard(a.Link10.Text)
+end)
+
+a.Execute.Name = "Execute"
+a.Execute.Parent = a.MainFrame
+a.Execute.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+a.Execute.Position = UDim2.new(0.0423076935, 0, 0.879166663, 0)
+a.Execute.Size = UDim2.new(0, 240, 0, 20)
+a.Execute.Font = Enum.Font.GothamMedium
+a.Execute.Text = "Execute"
+a.Execute.TextColor3 = Color3.fromRGB(0, 0, 0)
+a.Execute.TextSize = 14.000
+a.Execute.MouseButton1Down:connect(function()
+pcall(callback)
+end)
+
+a.UICorner_3.Parent = a.Execute
+end
+
+return Library
