@@ -70,7 +70,7 @@ a.Close.Text = "X"
 a.Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 a.Close.TextSize = 20.000
 a.Close.MouseButton1Down:connect(function()
-MainFrame:Destroy()
+a.MainFrame:Destroy()
 end)
 
 a.UICorner.Parent = a.BarFrame
