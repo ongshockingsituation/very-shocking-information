@@ -80,6 +80,8 @@ local Execute5 = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
 local Execute6 = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
+
 
 -- Locals
 
@@ -177,8 +179,8 @@ UICorner_3.Parent = TabsFrame
 
 HomeTab.Name = "HomeTab"
 HomeTab.Parent = TabsFrame
-HomeTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HomeTab.BackgroundTransparency = 1.000
+HomeTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HomeTab.BackgroundTransparency = 0.5
 HomeTab.Size = UDim2.new(0, 30, 0, 30)
 HomeTab.Image = "http://www.roblox.com/asset/?id=11592840951"
 
@@ -681,6 +683,8 @@ Execute6.TextColor3 = Color3.fromRGB(0, 0, 0)
 Execute6.TextSize = 14.000
 
 UICorner_21.Parent = Execute6
+
+UICorner_22.Parent = HomeTab
 
 -- 6 Scripts Button Functions and Names:
 
