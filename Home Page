@@ -570,7 +570,7 @@ Notification:Create("Copied To Clipboard!",5)
 end)
 
 Flag.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Support.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.Support.Visible = true
 MainFrame.Visible = false
 end)
 
