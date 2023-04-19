@@ -22,6 +22,6 @@ DragFrame.Position = UDim2.new(0.196224764, 0, 0.178353652, 0)
 DragFrame.Size = UDim2.new(0, 460, 0, 258)
 
 UIScale.Parent = DragFrame
-UIScale.Scale = 1
+UIScale.Scale = 1.05
 
 UICorner.Parent = DragFrame
