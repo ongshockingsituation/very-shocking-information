@@ -17,10 +17,11 @@ VHubLogoOpen.Parent = ButtonParent
 VHubLogoOpen.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 VHubLogoOpen.BackgroundTransparency = 0.5
 VHubLogoOpen.Position = UDim2.new(0, 0, 0.11, 0)
-VHubLogoOpen.Size = UDim2.new(0, 32, 0, 32)
+VHubLogoOpen.Size = UDim2.new(0, 62, 0, 32)
 VHubLogoOpen.Image = "rbxassetid://12193689334"
 VHubLogoOpen.ImageTransparency = 0
 VHubLogoOpen.Active = true 
+VHubLogoOpen.ScaleType = Enum.ScaleType.Fit
 VHubLogoOpen.MouseButton1Down:connect(function()
 if game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible == true then
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
@@ -30,3 +31,5 @@ end
 end)
 
 UICorner.Parent = VHubLogoOpen
+
+game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ChatIcon.Size = UDim2.new(0, 32, 1, 0)
