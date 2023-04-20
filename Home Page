@@ -528,7 +528,7 @@ MainFrame.Visible = false
 end)
 
 RequiredAccessoriesTab.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.RequiredAccessories1.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame["Required Accessories1"].Visible = true
 MainFrame.Visible = false
 end)
 
