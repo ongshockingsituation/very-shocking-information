@@ -891,7 +891,6 @@ Execute5.Visible = false
 Execute6.Visible = false
 ScriptName.Text = ScriptName4.Text
 ScriptCreator.Text = "Unknown"
-Notification:Create("Notice: To Be Invisible, Type \";invisible\" In The Chat And \";visible\" To Be Visible.",5)
 end)
 
 ScriptButton5.MouseButton1Down:connect(function()
