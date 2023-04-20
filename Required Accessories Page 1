@@ -687,47 +687,67 @@ UICorner_21.Parent = Execute6
 
 ScriptName1.Text = "Among Us"
 Execute1.MouseButton1Down:connect(function()
+if R6() then
 PopUp:Create("roblox.com/catalog/376527115", "roblox.com/catalog/48474313", "roblox.com/catalog/451220849", "roblox.com/catalog/48474294", "roblox.com/catalog/62724852", "roblox.com/catalog/63690008", "roblox.com/catalog/62234425", "roblox.com", "roblox.com", "roblox.com", function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 loadstring(game:HttpGet(('https://pastebin.com/raw/PixTPzw7'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
+elseif not R6() then
+Notification:Create("Oops: "..ScriptName1.Text.." Only Works If Your Rig Type Is R6.",5)
+end
 end)
 
 ScriptName2.Text = "Hoverboard"
 Execute2.MouseButton1Down:connect(function()
+if R6() then
 PopUp:Create("roblox.com/catalog/2646473721", "roblox.com/catalog/376527500", "roblox.com/catalog/376526673", "roblox.com", "roblox.com", "roblox.com", "roblox.com", "roblox.com", "roblox.com", "roblox.com", function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 loadstring(game:HttpGet(('https://pastebin.com/raw/aHkUrRdb'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 end)
+elseif not R6() then
+Notification:Create("Oops: "..ScriptName2.Text.." Only Works If Your Rig Type Is R6.",5)
+end
 end)
 
 ScriptName3.Text = "Zombie"
 Execute3.MouseButton1Down:connect(function()
+if R6() then
 PopUp:Create("roblox.com/catalog/617605556", "roblox.com/catalog/451220849", "roblox.com/catalog/48474294", "roblox.com/catalog/62724852", "roblox.com/catalog/63690008", "roblox.com/catalog/62234425", "roblox.com/catalog/376548738", "roblox.com", "roblox.com", "roblox.com", function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 loadstring(game:HttpGet("https://gist.githubusercontent.com/someunknowndude/18f1d979ad9a25ad69064be75f55f735/raw/dc36f1e9ad906a7434bd77bcd0ce8218fb5f4d88/zombie.lua"))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 end)
+elseif not R6() then
+Notification:Create("Oops: "..ScriptName3.Text.." Only Works If Your Rig Type Is R6.",5)
+end
 end)
 
 ScriptName4.Text = "Bag"
 Execute4.MouseButton1Down:connect(function()
+if R6() then
 PopUp:Create("roblox.com/catalog/4819740796", "roblox.com/catalog/48474313", "roblox.com/catalog/451220849", "roblox.com/catalog/48474294", "roblox.com/catalog/62724852", "roblox.com/catalog/63690008", "roblox.com/catalog/62234425", "roblox.com", "roblox.com", "roblox.com", function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Scripts/main/Bag'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 end)
+elseif not R6() then
+Notification:Create("Oops: "..ScriptName4.Text.." Only Works If Your Rig Type Is R6.",5)
+end
 end)
 
 ScriptName5.Text = "Plane"
 Execute5.MouseButton1Down:connect(function()
+if R6() then
 PopUp:Create("roblox.com/catalog/3963490791", "roblox.com/catalog/2492675286", "roblox.com/catalog/7583352167", "roblox.com/catalog/6470135113", "roblox.com/catalog/3940375351", "roblox.com/catalog/451220849", "roblox.com/catalog/5971691715", "roblox.com/catalog/62724852", "roblox.com/catalog/63690008", "roblox.com/catalog/62234425", function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 loadstring(game:HttpGet('https://pastebin.com/raw/60bQYvCU'))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 end)
+elseif not R6() then
+Notification:Create("Oops: "..ScriptName5.Text.." Only Works If Your Rig Type Is R6.",5)
+end
 end)
 
 -- Button Functions:
