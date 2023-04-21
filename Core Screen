@@ -20,6 +20,7 @@ DragFrame.BackgroundTransparency = 0.500
 DragFrame.Draggable = true
 DragFrame.Position = UDim2.new(0.196224764, 0, 0.178353652, 0)
 DragFrame.Size = UDim2.new(0, 460, 0, 258)
+DragFrame.Visible = false
 
 UIScale.Parent = DragFrame
 UIScale.Scale = 1.05
