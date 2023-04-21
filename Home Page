@@ -548,7 +548,7 @@ MainFrame.Visible = false
 end)
 
 OtherHubsTab.MouseButton1Down:connect(function()
-game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.OtherHubs1.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame["Other Hubs1"].Visible = true
 MainFrame.Visible = false
 end)
 
