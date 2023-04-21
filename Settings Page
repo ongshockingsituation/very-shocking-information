@@ -109,7 +109,7 @@ UIScaleButton.Parent = MainFrame
 UIScaleButton.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
 UIScaleButton.Position = UDim2.new(0.761538446, 0, 0.367209314, 0)
 UIScaleButton.Size = UDim2.new(0, 54, 0, 25)
-UIScaleButton.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+UIScaleButton.Image = "rbxassetid://13197672139"
 UIScaleButton.ScaleType = Enum.ScaleType.Fit
 UIScaleButton.MouseButton1Down:connect(function()
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.UIScale.Scale = UIScaleBox.Text
