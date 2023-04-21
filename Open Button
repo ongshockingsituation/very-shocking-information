@@ -8,7 +8,7 @@ ButtonParent.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ButtonParent.BackgroundTransparency = 1.000
 ButtonParent.Size = UDim2.new(0, 32, 1, 0)
 ButtonParent.Position = UDim2.new(0, 0, 0, 0)
-ButtonParent.Visible = true
+ButtonParent.Visible = false
 ButtonParent.LayoutOrder = 3
 ButtonParent.Active = true
 
