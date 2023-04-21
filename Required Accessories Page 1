@@ -132,7 +132,7 @@ TabName.Position = UDim2.new(0.0695652142, 0, 0, 0)
 TabName.Size = UDim2.new(0, 300, 0, 30)
 TabName.Font = Enum.Font.GothamMedium
 TabName.RichText = true
-TabName.Text = [[<font color="rgb(255, 0, 0)">V</font>Hub | ]]..NameTab
+TabName.Text = "VHub | "..NameTab
 TabName.TextColor3 = Color3.fromRGB(255, 255, 255)
 TabName.TextSize = 14.000
 TabName.TextXAlignment = Enum.TextXAlignment.Left
