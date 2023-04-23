@@ -35,6 +35,7 @@ FPS.TextColor3 = Color3.fromRGB(255, 255, 255)
 FPS.TextScaled = false
 FPS.TextSize = 10
 FPS.TextWrapped = false
+FPS.Visible = false
 local script = Instance.new('LocalScript', FPS)
 local RunService = game:GetService("RunService")
 RunService.RenderStepped:Connect(function(frame)
