@@ -24,7 +24,7 @@ DragFrame.Size = UDim2.new(0, 460, 0, 258)
 DragFrame.Visible = false
 
 FPS.Name = "FPS"
-FPS.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen
+FPS.Parent = DragScreen
 FPS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 FPS.BackgroundTransparency = 1.000
 FPS.Position = UDim2.new(0.0178552794, 0, 0.900000099, 0)
