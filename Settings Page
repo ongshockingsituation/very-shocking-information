@@ -156,7 +156,7 @@ OpenButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpenButton.TextSize = 16.000
 OpenButton.MouseButton1Down:connect(function()
 if OpenButton.Text == "Open Button: Top-Left" then
-game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ButtonParent.VHubLogoOpen.Size = UDim2.new(0, 62, 0, 32)
+game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ButtonParent.VHubLogoOpen.Size = UDim2.new(0, 32, 0, 32)
 game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ButtonParent.LayoutOrder = 0
 game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ButtonParent.Parent = game:GetService("CoreGui").TopBarApp.TopBarFrame.RightFrame
 OpenButton.Text = "Open Button: Top-Right"
