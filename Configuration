@@ -43,7 +43,7 @@ Updates.BackgroundTransparency = 1.000
 Updates.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
 Updates.Size = UDim2.new(0, 90, 0, 6)
 Updates.Font = Enum.Font.Gotham
-Updates.Text = "[+] New UI"
+Updates.Text = "[+] New UI\n[-] Removed 82 Patched Scripts"
 Updates.Visible = false
 Updates.TextColor3 = Color3.fromRGB(255, 255, 255)
 
