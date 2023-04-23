@@ -142,6 +142,17 @@ RemoveWatermark.Font = Enum.Font.Gotham
 RemoveWatermark.Text = "Remove Watermark: No"
 RemoveWatermark.TextColor3 = Color3.fromRGB(255, 255, 255)
 RemoveWatermark.TextSize = 16.000
+RemoveWatermark.MouseButton1Down:connect(function()
+if RemoveWatermark.Text == "Remove Watermark: No" then
+game:GetService("CoreGui").RobloxGui.ScreenshotHudFrame.Visible = false
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.FPS.Visible = false
+RemoveWatermark.Text = "Remove Watermark: Yes"
+elseif RemoveWatermark.Text == "Remove Watermark: Yes" then
+game:GetService("CoreGui").RobloxGui.ScreenshotHudFrame.Visible = true
+game:GetService("CoreGui").VHubCoreScreen.DragScreen.FPS.Visible = true
+RemoveWatermark.Text = "Remove Watermark: No"
+end
+end)
 
 UICorner_6.Parent = RemoveWatermark
 
