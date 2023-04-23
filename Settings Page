@@ -154,6 +154,10 @@ OpenButton.Font = Enum.Font.Gotham
 OpenButton.Text = "Open Button: Top-Left"
 OpenButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpenButton.TextSize = 16.000
+OpenButton.MouseButton1Down:connect(function()
+if OpenButton.Text == "Open Button: Top-Left" then
+game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ButtonParent = game:GetService("CoreGui").TopBarApp.TopBarFrame.RightFrame
+end)
 
 UICorner_7.Parent = OpenButton
 
