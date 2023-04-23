@@ -1,0 +1,19 @@
+local FPS = Instance.new("TextLabel")
+
+FPS.Name = "FPS"
+FPS.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen
+FPS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FPS.BackgroundTransparency = 1.000
+FPS.Position = UDim2.new(0.0178552794, 0, 0.900000099, 0)
+FPS.Size = UDim2.new(0, 70, 0, 25)
+FPS.Font = Enum.Font.GothamSemibold
+FPS.Text = "FPS: Loading..."
+FPS.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPS.TextScaled = false
+FPS.TextSize = 10
+FPS.TextWrapped = false
+local script = Instance.new('LocalScript', FPS)
+local RunService = game:GetService("RunService")
+RunService.RenderStepped:Connect(function(frame)
+script.Parent.Text = ("FPS: "..math.round(1/frame)) 
+end)
