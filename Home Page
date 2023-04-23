@@ -514,7 +514,6 @@ UICorner_18.Parent = Flag
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
-game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ButtonParent.Visible = true
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame.Visible = false
 end)
 
