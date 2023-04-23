@@ -66,6 +66,6 @@ Owner.BackgroundTransparency = 1.000
 Owner.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
 Owner.Size = UDim2.new(0, 90, 0, 6)
 Owner.Font = Enum.Font.Gotham
-Owner.Text = "Veinc#2642"
+Owner.Text = "V31nc#2642"
 Owner.Visible = false
 Owner.TextColor3 = Color3.fromRGB(255, 255, 255)
