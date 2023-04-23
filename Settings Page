@@ -159,7 +159,7 @@ if OpenButton.Text == "Open Button: Top-Left" then
 game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ButtonParent = game:GetService("CoreGui").TopBarApp.TopBarFrame.RightFrame
 game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ButtonParent.VHubLogoOpen.Size = UDim2.new(0, 62, 0, 32)
 game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame.ButtonParent.LayoutOrder = 0
-OpenButton.Text == "Open Button: Top-Right"
+OpenButton.Text = "Open Button: Top-Right"
 end
 end)
 
