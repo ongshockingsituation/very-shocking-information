@@ -143,6 +143,11 @@ pcall(function() getgenv().VHub_LOADED = false end)
 game:GetService("CoreGui").VHubCoreScreen.DragScreen.DragFrame:TweenPosition(UDim2.new(0.210, 0,0.99, 0),"Out","Back",1)
 wait(1)
 game:GetService("CoreGui").VHubCoreScreen:Destroy()
+local button = game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame: FindFirstChild("ButtonParent") or game:GetService("CoreGui").TopBarApp.TopBarFrame.RightFrame: FindFirstChild("ButtonParent")
+
+if button then
+button:Destroy()
+end
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/VHubGateway/Execute/VHub/Launch'),true))()
 end)
 
@@ -209,6 +214,11 @@ CloseVHub.TextSize = 16.000
 CloseVHub.MouseButton1Down:connect(function()
 pcall(function() getgenv().VHub_LOADED = false end)
 pcall(function() getgenv().Settings_LOADED = false end)
+local button = game:GetService("CoreGui").TopBarApp.TopBarFrame.LeftFrame: FindFirstChild("ButtonParent") or game:GetService("CoreGui").TopBarApp.TopBarFrame.RightFrame: FindFirstChild("ButtonParent")
+
+if button then
+button:Destroy()
+end
 game:GetService("CoreGui").RobloxGui.ScreenshotHudFrame.Visible = false
 game:GetService("CoreGui").VHubCoreScreen:Destroy()
 end)
