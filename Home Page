@@ -74,8 +74,6 @@ local cversion = game:GetService("CoreGui").VHubCoreScreen.CVersion.Text
 local changekey = game:GetService("CoreGui").VHubCoreScreen.ChangeKey.Text
 local gamename = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 local latestupdates = game:GetService("CoreGui").VHubCoreScreen.Updates.Text
-local Players = game:GetService("Players").LocalPlayer
-local Character = Players.Character
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 
 --Properties:
@@ -556,11 +554,11 @@ game:GetService("Workspace").Gravity = Gravity.Text
 end)
 
 PersonRunning.MouseButton1Down:connect(function()
-Character:FindFirstChild("Humanoid").WalkSpeed = WalkSpeed.Text
+game:GetService("Players").LocalPlayer.Character.Humanoid.WalkSpeed = WalkSpeed.Text
 end)
 
 PersonJumping.MouseButton1Down:connect(function()
-Character:FindFirstChild("Humanoid").JumpPower = JumpPower.Text
+game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = JumpPower.Text
 end)
 
 Discord.MouseButton1Down:connect(function()
