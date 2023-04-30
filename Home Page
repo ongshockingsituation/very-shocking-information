@@ -556,11 +556,11 @@ game:GetService("Workspace").Gravity = Gravity.Text
 end)
 
 PersonRunning.MouseButton1Down:connect(function()
-Character.Humanoid.WalkSpeed = WalkSpeed.Text
+Character:FindFirstChildOfClass("Humanoid").WalkSpeed = WalkSpeed.Text
 end)
 
 PersonJumping.MouseButton1Down:connect(function()
-Character.Humanoid.JumpPower = JumpPower.Text
+Character:FindFirstChildOfClass("Humanoid").JumpPower = JumpPower.Text
 end)
 
 Discord.MouseButton1Down:connect(function()
