@@ -713,6 +713,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 end)
 
+ScriptName4.Text = "Dex Explorer"
+Execute4.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Dex%20Explorer"))()
+Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
+end)
+
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
