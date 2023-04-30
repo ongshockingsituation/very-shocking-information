@@ -21,7 +21,7 @@ CVersion.BackgroundTransparency = 1.000
 CVersion.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
 CVersion.Size = UDim2.new(0, 90, 0, 6)
 CVersion.Font = Enum.Font.Gotham
-CVersion.Text = "V1.38"
+CVersion.Text = "V1.39"
 CVersion.Visible = false
 CVersion.TextColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -43,7 +43,7 @@ Updates.BackgroundTransparency = 1.000
 Updates.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
 Updates.Size = UDim2.new(0, 90, 0, 6)
 Updates.Font = Enum.Font.Gotham
-Updates.Text = "[+] Added Pedro.Exe\n[+] Added Game Store Tycoon Auto Farm\n[/] Fixed LocalPlayer"
+Updates.Text = "[+] Added فورت نايت العرب Kill All \n[+] Added Apocalypse Tycoon Infinite Money\n[+] Added Escape The Dungeon Obby Get Gear"
 Updates.Visible = false
 Updates.TextColor3 = Color3.fromRGB(255, 255, 255)
 
