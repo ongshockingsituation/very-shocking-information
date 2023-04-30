@@ -75,7 +75,7 @@ local changekey = game:GetService("CoreGui").VHubCoreScreen.ChangeKey.Text
 local gamename = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 local latestupdates = game:GetService("CoreGui").VHubCoreScreen.Updates.Text
 local Players = game:GetService("Players").LocalPlayer
-local Character = Players.Character
+local Character = Players:FindFirstChild("Character")
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/Notification%20Library"))()
 
 --Properties:
