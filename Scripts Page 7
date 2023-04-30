@@ -710,13 +710,34 @@ Notification:Create("Oops: "..ScriptName3.Text.." Only Works In Ragdoll Engine."
 end
 end)
 
-ScriptName4.Text = "Game Store Tycoon Auto Farm"
+ScriptName4.Text = "Game Store Tycoon Infinite Money"
 Execute4.MouseButton1Down:connect(function()
 if game.PlaceId == 10963175 then
 loadstring(game:HttpGet("https://pastebin.com/raw/FV3VrMrP"))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 else
 Notification:Create("Oops: "..ScriptName4.Text.." Only Works In Game Store Tycoon.",5)
+end
+end)
+
+ScriptName5.Text = "فورت نايت العرب Kill All"
+Execute5.MouseButton1Down:connect(function()
+if game.PlaceId == 8721702870 then
+loadstring(game:HttpGet("https://pastebin.com/raw/w6Yetxmd"))()
+Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
+else
+local TheGame = "فورت نايت العرب"
+Notification:Create("Oops: "..ScriptName5.Text.." Only Works In "..TheGame..".",5)
+end
+end)
+
+ScriptName6.Text = "Apocalypse Tycoon Infinite Money"
+Execute6.MouseButton1Down:connect(function()
+if game.PlaceId == 12402669933 then
+loadstring(game:HttpGet("https://pastebin.com/raw/GnFPj7Vv"))()
+Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName6.Text.." Only Works In Apocalypse Tycoon.",5)
 end
 end)
 
