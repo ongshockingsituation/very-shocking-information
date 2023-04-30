@@ -715,6 +715,16 @@ Notification:Create("Oops: "..ScriptName3.Text.." Only Works If Your Rig Type Is
 end
 end)
 
+ScriptName4.Text = "Zombie Animation"
+Execute4.MouseButton1Down:connect(function()
+if R6() then
+Notification:Create("Oops: "..ScriptName4.Text.." Only Works If Your Rig Type Is R15.",5)
+elseif not R6() then
+loadstring(game:HttpGet(('https://pastefy.ga/n42Ougzx/raw'),true))()
+Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
+end
+end)
+
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
