@@ -710,6 +710,16 @@ Notification:Create("Oops: "..ScriptName3.Text.." Only Works In Ragdoll Engine."
 end
 end)
 
+ScriptName4.Text = "Game Store Tycoon Auto Farm"
+Execute4.MouseButton1Down:connect(function()
+if game.PlaceId == 10963175 then
+loadstring(game:HttpGet("https://pastebin.com/raw/FV3VrMrP"))()
+Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName4.Text.." Only Works In Game Store Tycoon.",5)
+end
+end)
+
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
