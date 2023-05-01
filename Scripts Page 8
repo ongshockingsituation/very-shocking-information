@@ -694,6 +694,26 @@ Notification:Create("Oops: "..ScriptName1.Text.." Only Works In Escape The Dunge
 end
 end)
 
+ScriptName2.Text = "Heist Tycoon Infinite Money"
+Execute2.MouseButton1Down:connect(function()
+if game.PlaceId == 11103424163 then
+loadstring(game:HttpGet("https://pastebin.com/raw/kdTbYUMa"))()
+Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName2.Text.." Only Works In Heist Tycoon.",5)
+end
+end)
+
+ScriptName3.Text = "Snow Plow Simulator Infinite Money"
+Execute3.MouseButton1Down:connect(function()
+if game.PlaceId == 11701792069 then
+loadstring(game:HttpGet("https://pastebin.com/raw/CmpSWmcZ"))()
+Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName3.Text.." Only Works In Snow Plow Simulator.",5)
+end
+end)
+
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
