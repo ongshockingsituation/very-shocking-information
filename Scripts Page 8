@@ -714,6 +714,36 @@ Notification:Create("Oops: "..ScriptName3.Text.." Only Works In Snow Plow Simula
 end
 end)
 
+ScriptName4.Text = "Destruction Simulator Infinite Money"
+Execute4.MouseButton1Down:connect(function()
+if game.PlaceId == 2248408710 then
+loadstring(game:HttpGet("https://pastebin.com/raw/tJvYdTpq"))()
+Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName4.Text.." Only Works In Destruction Simulator.",5)
+end
+end)
+
+ScriptName5.Text = "2 Player Millionaire Tycoon Infinite Money"
+Execute5.MouseButton1Down:connect(function()
+if game.PlaceId == 6772424226 then
+loadstring(game:HttpGet("https://pastebin.com/raw/9hGa82eS"))()
+Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName5.Text.." Only Works In 2 Player Millionaire Tycoon.",5)
+end
+end)
+
+ScriptName6.Text = "Wormface Auto Farm"
+Execute6.MouseButton1Down:connect(function()
+if game.PlaceId == 5942932659 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Wormface%20Auto%20Farm"))()
+Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
+else
+Notification:Create("Oops: "..ScriptName6.Text.." Only Works In Wormface.",5)
+end
+end)
+
 -- Button Functions:
 
 Close.MouseButton1Down:connect(function()
@@ -866,6 +896,7 @@ Execute5.Visible = true
 Execute6.Visible = false
 ScriptName.Text = ScriptName5.Text
 ScriptCreator.Text = "Unknown"
+Notification:Create("Notice: "..ScriptName5.Text.." Only Works If You Claimed A Tycoon.",5)
 end)
 
 ScriptButton6.MouseButton1Down:connect(function()
