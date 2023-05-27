@@ -1,5 +1,5 @@
-game:GetService("CoreGui").KeyScreen.KeyChange.Text = "16/5/23"
+game:GetService("CoreGui").KeyScreen.KeyChange.Text = "6/3/23"
 
-game:GetService("CoreGui").KeyScreen.K.Text = "IHearBlackPeopleClappinEachOther"
+game:GetService("CoreGui").KeyScreen.K.Text = "DickBlendingSimulatorX"
 
-game:GetService("CoreGui").KeyScreen.FL.Text = ".qw"
+game:GetService("CoreGui").KeyScreen.FL.Text = ".qwn"
