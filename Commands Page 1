@@ -92,6 +92,7 @@ local PPage = 0
 local PageNumber = "1"
 local NPage = 2
 local SIcon = "http://www.roblox.com/asset/?id=11592837927"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -686,6 +687,7 @@ UICorner_21.Parent = Execute6
 
 ScriptName1.Text = "Infinite Yeild"
 Execute1.MouseButton1Down:connect(function()
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
@@ -693,6 +695,7 @@ end)
 ScriptName2.Text = "Manager Command"
 Execute2.MouseButton1Down:connect(function()
 if game.PlaceId == 192800 then
+SHS:Create(ScriptName2.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/ynWH5PdP'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 else
@@ -702,24 +705,28 @@ end)
 
 ScriptName3.Text = "Reviz Admin"
 Execute3.MouseButton1Down:connect(function()
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/Caniwq2N'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 end)
 
 ScriptName4.Text = "Invisible Command"
 Execute4.MouseButton1Down:connect(function()
+SHS:Create(ScriptName4.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/VBPhDzHP'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 end)
 
 ScriptName5.Text = "NTos Admin"
 Execute5.MouseButton1Down:connect(function()
+SHS:Create(ScriptName5.Text)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 end)
 
 ScriptName6.Text = "FrostMare"
 Execute6.MouseButton1Down:connect(function()
+SHS:Create(ScriptName6.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/Lqmx6Eiy'),true))();
 Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 end)
