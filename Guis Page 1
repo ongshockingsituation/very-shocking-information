@@ -92,6 +92,7 @@ local PPage = 0
 local PageNumber = "1"
 local NPage = 2
 local SIcon = "http://www.roblox.com/asset/?id=11592848654"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -687,6 +688,7 @@ UICorner_21.Parent = Execute6
 ScriptName1.Text = "Kill Gui"
 Execute1.MouseButton1Down:connect(function()
 if R6() then
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/uVHSXV6m'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 elseif not R6() then 
@@ -696,6 +698,7 @@ end)
 
 ScriptName2.Text = "Arosia"
 Execute2.MouseButton1Down:connect(function()
+SHS:Create(ScriptName2.Text)
 loadstring(Game:GetObjects("rbxassetid://1255908305")[1].Source)()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 end)
@@ -703,9 +706,11 @@ end)
 ScriptName3.Text = "Fly Gui"
 Execute3.MouseButton1Down:connect(function()
 if game.PlaceId == 2788229376 then
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Obfuscatetestloluwu/Scripts/main/Fly%20Gui%20For%20Da%20Hood'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."! (Da Hood)",5)
 else
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Fly%20gui'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 end
@@ -713,18 +718,21 @@ end)
 
 ScriptName4.Text = "Yeet Gui"
 Execute4.MouseButton1Down:connect(function()
+SHS:Create(ScriptName4.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/LMQgxmhe'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 end)
 
 ScriptName5.Text = "Hypertotal"
 Execute5.MouseButton1Down:connect(function()
+SHS:Create(ScriptName5.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/nucL1nkC'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 end)
 
 ScriptName6.Text = "Warior Roberr Gui"
 Execute6.MouseButton1Down:connect(function()
+SHS:Create(ScriptName6.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/tK9Wb2zD'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 end)
