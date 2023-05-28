@@ -92,6 +92,7 @@ local PPage = 1
 local PageNumber = "2"
 local NPage = 3
 local SIcon = "http://www.roblox.com/asset/?id=11592848654"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -686,6 +687,7 @@ UICorner_21.Parent = Execute6
 
 ScriptName1.Text = "Spectate Gui"
 Execute1.MouseButton1Down:connect(function()
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/brJacHL9'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
@@ -693,6 +695,7 @@ end)
 ScriptName2.Text = "Tower Of Hell OnWin"
 Execute2.MouseButton1Down:connect(function()
 if game.PlaceId == 1962086868 then
+SHS:Create(ScriptName2.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/zphaw4sM'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 else
@@ -702,24 +705,28 @@ end)
 
 ScriptName3.Text = "Edge's Audio Logger"
 Execute3.MouseButton1Down:connect(function()
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/wN9Q3pZm'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 end)
 
 ScriptName4.Text = "Fling Gui"
 Execute4.MouseButton1Down:connect(function()
+SHS:Create(ScriptName4.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/r97d7dS0'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 end)
 
 ScriptName5.Text = "Shiftlock"
 Execute5.MouseButton1Down:connect(function()
+SHS:Create(ScriptName5.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/E9a7QmCZ'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 end)
 
 ScriptName6.Text = "Magnet Gui"
 Execute6.MouseButton1Down:connect(function()
+SHS:Create(ScriptName6.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/pUWgseqt'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 end)
