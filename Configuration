@@ -21,7 +21,7 @@ CVersion.BackgroundTransparency = 1.000
 CVersion.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
 CVersion.Size = UDim2.new(0, 90, 0, 6)
 CVersion.Font = Enum.Font.Gotham
-CVersion.Text = "V1.41"
+CVersion.Text = "V1.42"
 CVersion.Visible = false
 CVersion.TextColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -32,7 +32,7 @@ ChangeKey.BackgroundTransparency = 1.000
 ChangeKey.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
 ChangeKey.Size = UDim2.new(0, 90, 0, 6)
 ChangeKey.Font = Enum.Font.Gotham
-ChangeKey.Text = "5/7/23"
+ChangeKey.Text = "6/3/23"
 ChangeKey.Visible = false
 ChangeKey.TextColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -43,7 +43,7 @@ Updates.BackgroundTransparency = 1.000
 Updates.Position = UDim2.new(0.00899999961, 0, 0.75, 0)
 Updates.Size = UDim2.new(0, 90, 0, 6)
 Updates.Font = Enum.Font.Gotham
-Updates.Text = "[+] Added Destruction Simulator Infinite Money \n[+] Added 2 Player Millionaire Tycoon Infinite Money \n[+] Added Wormface Auto Farm"
+Updates.Text = "[+] Added Player Lifter \n[+] Added Flashback \n[+] Added Longest Answer Wins Long Answer"
 Updates.Visible = false
 Updates.TextColor3 = Color3.fromRGB(255, 255, 255)
 
