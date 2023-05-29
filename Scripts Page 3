@@ -92,6 +92,7 @@ local PPage = 2
 local PageNumber = "3"
 local NPage = 4
 local SIcon = "http://www.roblox.com/asset/?id=11592851654"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -686,6 +687,7 @@ UICorner_21.Parent = Execute6
 
 ScriptName1.Text = "Set Spawn Point"
 Execute1.MouseButton1Down:connect(function()
+SHS:Create(ScriptName1.Text)
 while wait() do
 loadstring(game:HttpGet("https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Set%20Spawn%20Point"))()
 end
@@ -697,6 +699,7 @@ Execute2.MouseButton1Down:connect(function()
 if R6() then
 Notification:Create("Oops: "..ScriptName2.Text.." Only Works If Your Rig Type Is R15.",5)
 elseif not R6() then
+SHS:Create(ScriptName2.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/BXpumAJs'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 end
@@ -705,6 +708,7 @@ end)
 ScriptName3.Text = "Prison Life Aimbot"
 Execute3.MouseButton1Down:connect(function()
 if game.PlaceId == 155615604 then
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/BVbG4ei7'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 else
@@ -715,6 +719,7 @@ end)
 ScriptName4.Text = "Mesh Spin"
 Execute4.MouseButton1Down:connect(function()
 if R6() then
+SHS:Create(ScriptName4.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/7dgwwzg0",true))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 elseif not R6() then
@@ -724,12 +729,14 @@ end)
 
 ScriptName5.Text = "Graphics Enchancer"
 Execute5.MouseButton1Down:connect(function()
+SHS:Create(ScriptName5.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/vmwVkPWa",true))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 end)
 
 ScriptName6.Text = "Block Gear"
 Execute6.MouseButton1Down:connect(function()
+SHS:Create(ScriptName6.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/pgHUaMxb",true))()
 Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 end)
