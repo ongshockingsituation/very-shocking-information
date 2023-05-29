@@ -862,7 +862,6 @@ Execute5.Visible = true
 Execute6.Visible = false
 ScriptName.Text = ScriptName5.Text
 ScriptCreator.Text = "Unknown"
-Notification:Create("Notice: "..ScriptName5.Text.." Only Works If You Claimed A Tycoon.",5)
 end)
 
 ScriptButton6.MouseButton1Down:connect(function()
