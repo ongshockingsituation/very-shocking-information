@@ -92,6 +92,7 @@ local PPage = 0
 local PageNumber = "1"
 local NPage = 2
 local SIcon = "http://www.roblox.com/asset/?id=11592850267"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -687,6 +688,7 @@ UICorner_21.Parent = Execute6
 ScriptName1.Text = "IceHub"
 Execute1.MouseButton1Down:connect(function()
 if game.PlaceId == 4924922222 then
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 else
