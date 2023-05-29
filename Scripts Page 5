@@ -92,6 +92,7 @@ local PPage = 4
 local PageNumber = "5"
 local NPage = 6
 local SIcon = "http://www.roblox.com/asset/?id=11592851654"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -686,24 +687,28 @@ UICorner_21.Parent = Execute6
 
 ScriptName1.Text = "Anti Fling"
 Execute1.MouseButton1Down:connect(function()
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/Vk7jQ9Ft'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
 
 ScriptName2.Text = "Walk On Walls"
 Execute2.MouseButton1Down:connect(function()
+SHS:Create(ScriptName2.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 end)
 
 ScriptName3.Text = "Carts Speeder"
 Execute3.MouseButton1Down:connect(function()
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/sWDcnTga"))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 end)
 
 ScriptName4.Text = "Netless Reanimator"
 Execute4.MouseButton1Down:connect(function()
+SHS:Create(ScriptName4.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/wWwx1KrG",true))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 end)
@@ -711,6 +716,7 @@ end)
 ScriptName5.Text = "Rob A ATM"
 Execute5.MouseButton1Down:connect(function()
 if game.PlaceId == 2788229376 then
+SHS:Create(ScriptName5.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/h1yHHMs6",true))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 else
@@ -721,6 +727,7 @@ end)
 ScriptName6.Text = "Strongest Punch Simulator Auto Farm"
 Execute6.MouseButton1Down:connect(function()
 if game.PlaceId == 6875469709 then
+SHS:Create(ScriptName6.Text)
 loadstring(game:HttpGet('https://pastebin.com/raw/9fhssXQd'))()
 Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 else
