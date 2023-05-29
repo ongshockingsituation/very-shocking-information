@@ -92,6 +92,7 @@ local PPage = 6
 local PageNumber = "7"
 local NPage = 8
 local SIcon = "http://www.roblox.com/asset/?id=11592851654"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -686,6 +687,7 @@ UICorner_21.Parent = Execute6
 
 ScriptName1.Text = "Chat Translator"
 Execute1.MouseButton1Down:connect(function()
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Chat%20Translator'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
@@ -693,6 +695,7 @@ end)
 ScriptName2.Text = "Aimlock Tool"
 Execute2.MouseButton1Down:connect(function()
 if game.PlaceId == 2788229376 then
+SHS:Create(ScriptName2.Text)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/anothertoollock"))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 else
@@ -703,6 +706,7 @@ end)
 ScriptName3.Text = "Anti Ragdoll"
 Execute3.MouseButton1Down:connect(function()
 if game.PlaceId == 9848789324 then
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Anti%20Ragdoll"))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 else
@@ -713,6 +717,7 @@ end)
 ScriptName4.Text = "Game Store Tycoon Infinite Money"
 Execute4.MouseButton1Down:connect(function()
 if game.PlaceId == 10963175 then
+SHS:Create(ScriptName4.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/FV3VrMrP"))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 else
@@ -723,6 +728,7 @@ end)
 ScriptName5.Text = "فورت نايت العرب Kill All"
 Execute5.MouseButton1Down:connect(function()
 if game.PlaceId == 8721702870 then
+SHS:Create(ScriptName5.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/w6Yetxmd"))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 else
@@ -734,6 +740,7 @@ end)
 ScriptName6.Text = "Apocalypse Tycoon Infinite Money"
 Execute6.MouseButton1Down:connect(function()
 if game.PlaceId == 12402669933 then
+SHS:Create(ScriptName6.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/GnFPj7Vv"))()
 Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 else
