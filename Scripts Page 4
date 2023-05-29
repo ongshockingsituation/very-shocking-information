@@ -92,6 +92,7 @@ local PPage = 3
 local PageNumber = "4"
 local NPage = 5
 local SIcon = "http://www.roblox.com/asset/?id=11592851654"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -686,6 +687,7 @@ UICorner_21.Parent = Execute6
 
 ScriptName1.Text = "Infinite Jump"
 Execute1.MouseButton1Down:connect(function()
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/GiA32cn6",true))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
@@ -693,6 +695,7 @@ end)
 ScriptName2.Text = "Ball"
 Execute2.MouseButton1Down:connect(function()
 if R6() then
+SHS:Create(ScriptName2.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 loadstring(game:HttpGet(('https://pastebin.com/raw/aH9LsCgu'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
@@ -704,6 +707,7 @@ end)
 ScriptName3.Text = "Get To The Top Auto Farm"
 Execute3.MouseButton1Down:connect(function()
 if game.PlaceId == 6902912928 then
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/75BD30j0'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 else
@@ -714,6 +718,7 @@ end)
 ScriptName4.Text = "99% Fail ESP"
 Execute4.MouseButton1Down:connect(function()
 if game.PlaceId == 7584496019 then
+SHS:Create(ScriptName4.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/r5BjpxR7'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 else
@@ -724,6 +729,7 @@ end)
 ScriptName5.Text = "Uctron's Sword"
 Execute5.MouseButton1Down:connect(function()
 if game.PlaceId == 155615604 then
+SHS:Create(ScriptName5.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/UGNecs1d'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 else
@@ -734,6 +740,7 @@ end)
 ScriptName6.Text = "Toh But There's Lava Rising Teleport To End"
 Execute6.MouseButton1Down:connect(function()
 if game.PlaceId == 6502546031 then
+SHS:Create(ScriptName6.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/6UbUN5Mv'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 else
