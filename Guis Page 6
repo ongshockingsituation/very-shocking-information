@@ -92,6 +92,7 @@ local PPage = 5
 local PageNumber = "6"
 local NPage = 7
 local SIcon = "http://www.roblox.com/asset/?id=11592848654"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -687,6 +688,7 @@ UICorner_21.Parent = Execute6
 ScriptName1.Text = "Simulator Pets Gui"
 Execute1.MouseButton1Down:connect(function()
 if R6() then
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/rouxhaver/scripts/main/FE%20Simulator%20Pets.lua'))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 elseif not R6() then
@@ -697,6 +699,7 @@ end)
 ScriptName2.Text = "Accessory Giver Gui"
 Execute2.MouseButton1Down:connect(function()
 if R6() then
+SHS:Create(ScriptName2.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Hat%20Giver'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
@@ -709,18 +712,21 @@ end)
 
 ScriptName3.Text = "CCTV Camera Spawner"
 Execute3.MouseButton1Down:connect(function()
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV Camera'))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 end)
 
 ScriptName4.Text = "Dex Explorer"
 Execute4.MouseButton1Down:connect(function()
+SHS:Create(ScriptName4.Text)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Dex%20Explorer"))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 end)
 
 ScriptName5.Text = "Pedro.Exe"
 Execute5.MouseButton1Down:connect(function()
+SHS:Create(ScriptName5.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/Q0VdG4AL"))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 end)
@@ -728,6 +734,7 @@ end)
 ScriptName6.Text = "Strongman Simulator Gui"
 Execute6.MouseButton1Down:connect(function()
 if game.PlaceId == 6766156863 then
+SHS:Create(ScriptName6.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/nt5hj2Rp"))()
 Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 else
