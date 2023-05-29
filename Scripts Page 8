@@ -92,6 +92,7 @@ local PPage = 7
 local PageNumber = "8"
 local NPage = 9
 local SIcon = "http://www.roblox.com/asset/?id=11592851654"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -687,6 +688,7 @@ UICorner_21.Parent = Execute6
 ScriptName1.Text = "Escape The Dungeon Obby Get Gear"
 Execute1.MouseButton1Down:connect(function()
 if game.PlaceId == 2028593804 then
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/daFXeF7t"))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 else
@@ -697,6 +699,7 @@ end)
 ScriptName2.Text = "Heist Tycoon Infinite Money"
 Execute2.MouseButton1Down:connect(function()
 if game.PlaceId == 11103424163 then
+SHS:Create(ScriptName2.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/kdTbYUMa"))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 else
@@ -707,6 +710,7 @@ end)
 ScriptName3.Text = "Snow Plow Simulator Infinite Money"
 Execute3.MouseButton1Down:connect(function()
 if game.PlaceId == 11701792069 then
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/CmpSWmcZ"))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 else
@@ -717,6 +721,7 @@ end)
 ScriptName4.Text = "Destruction Simulator Infinite Money"
 Execute4.MouseButton1Down:connect(function()
 if game.PlaceId == 2248408710 then
+SHS:Create(ScriptName4.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/tJvYdTpq"))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 else
@@ -727,6 +732,7 @@ end)
 ScriptName5.Text = "2 Player Millionaire Tycoon Infinite Money"
 Execute5.MouseButton1Down:connect(function()
 if game.PlaceId == 6772424226 then
+SHS:Create(ScriptName5.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/9hGa82eS"))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 else
@@ -737,6 +743,7 @@ end)
 ScriptName6.Text = "Wormface Auto Farm"
 Execute6.MouseButton1Down:connect(function()
 if game.PlaceId == 5942932659 then
+SHS:Create(ScriptName6.Text)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Wormface%20Auto%20Farm"))()
 Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 else
