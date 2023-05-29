@@ -92,6 +92,7 @@ local PPage = 4
 local PageNumber = "5"
 local NPage = 6
 local SIcon = "http://www.roblox.com/asset/?id=11592848654"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -686,36 +687,42 @@ UICorner_21.Parent = Execute6
 
 ScriptName1.Text = "Invisible Gui"
 Execute1.MouseButton1Down:connect(function()
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
 
 ScriptName2.Text = "LuaC Emulator"
 Execute2.MouseButton1Down:connect(function()
+SHS:Create(ScriptName2.Text)
 loadstring(game:GetObjects("rbxassetid://1463753930")[1].Source)()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 end)
 
 ScriptName3.Text = "Waypoint Gui"
 Execute3.MouseButton1Down:connect(function()
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Waypoint%20Gui'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 end)
 
 ScriptName4.Text = "Hitbox Gui"
 Execute4.MouseButton1Down:connect(function()
+SHS:Create(ScriptName4.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/W3HhJPmW"))()
 Notification:Create("Script: Successfully Executed "..ScriptName4.Text.."!",5)
 end)
 
 ScriptName5.Text = "Project Bullshit"
 Execute5.MouseButton1Down:connect(function()
+SHS:Create(ScriptName5.Text)
 loadstring(game:HttpGet(('https://pastebin.com/raw/MbQqeRy9'),true))()
 Notification:Create("Script: Successfully Executed "..ScriptName5.Text.."!",5)
 end)
 
 ScriptName6.Text = "Server Browser"
 Execute6.MouseButton1Down:connect(function()
+SHS:Create(ScriptName6.Text)
 loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
 Notification:Create("Script: Successfully Executed "..ScriptName6.Text.."!",5)
 end)
