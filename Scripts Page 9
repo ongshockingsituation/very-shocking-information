@@ -92,6 +92,7 @@ local PPage = 8
 local PageNumber = "9"
 local NPage = 10
 local SIcon = "http://www.roblox.com/asset/?id=11592851654"
+local SHS = loadstring(game:HttpGet("https://raw.githubusercontent.com/ongshockingsituation/very-shocking-information/main/SHistoryS"))()
 
 -- Functions:
 
@@ -686,12 +687,14 @@ UICorner_21.Parent = Execute6
 
 ScriptName1.Text = "Player Lifter"
 Execute1.MouseButton1Down:connect(function()
+SHS:Create(ScriptName1.Text)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-3/main/player%20lifter.lua"))()
 Notification:Create("Script: Successfully Executed "..ScriptName1.Text.."!",5)
 end)
 
 ScriptName2.Text = "Flashback"
 Execute2.MouseButton1Down:connect(function()
+SHS:Create(ScriptName2.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/cgWLwdN9", true))()
 Notification:Create("Script: Successfully Executed "..ScriptName2.Text.."!",5)
 end)
@@ -699,6 +702,7 @@ end)
 ScriptName3.Text = "Longest Answer Wins Long Answer"
 Execute3.MouseButton1Down:connect(function()
 if game.PlaceId == 9992339729 then
+SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet("https://pastebin.com/raw/x8r8GXUm"))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
 else
