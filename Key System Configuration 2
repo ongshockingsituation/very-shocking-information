@@ -1,5 +1,7 @@
-path = {
-K = "ILikeBigBlackMenTwerkingTheirAssesOnMyDick",
-FL = ".con",
-KC = "6/29/23",
+return {
+  path = {
+    K = 'ILikeBigBlackMenTwerkingTheirAssesOnMyDick',
+    FL = '.con',
+    KC = '06/29/23'
+  }
 }
