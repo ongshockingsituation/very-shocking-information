@@ -705,7 +705,7 @@ end)
 
 ScriptName3.Text = "Anti Ragdoll"
 Execute3.MouseButton1Down:connect(function()
-if game.PlaceId == 9848789324 then
+if game.PlaceId == 7314148798 then
 SHS:Create(ScriptName3.Text)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/testforshiistuff/Scripts/main/Anti%20Ragdoll"))()
 Notification:Create("Script: Successfully Executed "..ScriptName3.Text.."!",5)
